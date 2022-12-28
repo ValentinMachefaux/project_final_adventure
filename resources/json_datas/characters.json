@@ -15,8 +15,8 @@
                 "RP_max": 100,
                 "ATK": 20,
                 "DEF": 20,
-                "Precision": 100,
-                "VIT": 103,
+                "Accuracy": 100,
+                "SPD": 103,
                 "EXP": 0,
                 "Status": null,
                 "Sprite": {
@@ -80,7 +80,7 @@
                     },
                     "Skill_2": {
                         "Name": "Premier soin",
-                        "Details": "Soigne un allié de 15%.",
+                        "Detail": "Soigne un allié de 15%.",
                         "Image": "image.png",
                         "MP": 10,
                         "CD": 0,
@@ -93,7 +93,7 @@
                     },
                     "Skill_3": {
                         "Name": "Intimidation",
-                        "Details": "Provoque tous les ennemis qui perdent l'envie de se battre, réduit de 20% l’attaque ennemi et 5% sur les boss.",
+                        "Detail": "Provoque tous les ennemis qui perdent l'envie de se battre, réduit de 20% l’attaque ennemi et 5% sur les boss.",
                         "Image": "image.png",
                         "MP": 5,
                         "CD": 0,
@@ -107,13 +107,14 @@
                     },
                     "Ultimate": {
                         "Name": "Spes Mundi",
-                        "Details": "Obtient l’aval d’un dieu, le héros s’équipe de l’arme sacrée et assène un coup fulgurant sur l’ennemi, 2,5 fois les dégâts de l’arme.",
+                        "Detail": "Obtient l’aval d’un dieu, le héros s’équipe de l’arme sacrée et assène un coup fulgurant sur l’ennemi, 2,5 fois les dégâts de l’arme.",
                         "Image": "image.png",
                         "RP": 100,
                         "CD": null,
                         "Effect": {
                             "Value": 2.5,
                             "Type": "Attaque",
+                            "AoE":true,
                             "Element": "Lumière"
                         }
                     }
@@ -142,8 +143,8 @@
                 "RP_max": 100,
                 "ATK": 15,
                 "DEF": 30,
-                "Precision": 100,
-                "VIT": 101,
+                "Accuracy": 100,
+                "SPD": 101,
                 "EXP": 0,
                 "Status": null,
                 "Sprite": {
@@ -176,7 +177,7 @@
                     },
                     "Skill_2": {
                         "Name": "Tourbillon",
-                        "Details": "Fait tourner sa lance au-dessus de sa tete.",
+                        "Detail": "Fait tourner sa lance au-dessus de sa tete.",
                         "Image": "image.png",
                         "MP": 10,
                         "CD": 0,
@@ -189,7 +190,7 @@
                     },
                     "Skill_3": {
                         "Name": "Riposte",
-                        "Details": "Se met en garde pour contrer une attaque.",
+                        "Detail": "Se met en garde pour contrer une attaque.",
                         "Image": "image.png",
                         "MP": 40,
                         "CD": 2,
@@ -203,7 +204,7 @@
                     },
                     "Ultimate": {
                         "Name": "Technique ancestrale",
-                        "Details": "Prends appui sur son arme et saute dans les air pour effectuer un enchainement de coup tranchant.",
+                        "Detail": "Prends appui sur son arme et saute dans les air pour effectuer un enchainement de coup tranchant.",
                         "Image": "image.png",
                         "RP": 100,
                         "Effect": {
@@ -238,8 +239,8 @@
                 "RP_max": 100,
                 "ATK": 25,
                 "DEF": 5,
-                "Precision": 100,
-                "VIT": 110,
+                "Accuracy": 100,
+                "SPD": 110,
                 "EXP": 0,
                 "Status": null,
                 "Sprite": {
@@ -255,7 +256,7 @@
                     ]
                 },
                 "Image": null,
-                "Skill": {
+                "Skills": {
                     "Skill_1": {
                         "Name": "Lance-pique",
                         "Detail": "Bébé Nergi lance une raffale de pics, peut toucher 1 à 4 fois.",
@@ -271,7 +272,7 @@
                     },
                     "Skill_2": {
                         "Name": "Pique de Nergi",
-                        "Details": "Bébé Nergi s'enveloppe de pics et fonce sur l'ennemi.",
+                        "Detail": "Bébé Nergi s'enveloppe de pics et fonce sur l'ennemi.",
                         "Image": "image.png",
                         "MP": 35,
                         "CD": 0,
@@ -284,7 +285,7 @@
                     },
                     "Skill_3": {
                         "Name": "Charge",
-                        "Details": "Concentre sa force sur ses jambes et saute sur l'ennemi.",
+                        "Detail": "Concentre sa force sur ses jambes et saute sur l'ennemi.",
                         "Image": "image.png",
                         "MP": 40,
                         "CD": 2,
@@ -297,7 +298,7 @@
                     },
                     "Ultimate": {
                         "Name": "Transformation démoniaque",
-                        "Details": "Invoque ses pouvoirs démoniaque puis donne un coup dévastateur.",
+                        "Detail": "Invoque ses pouvoirs démoniaque puis donne un coup dévastateur.",
                         "Image": "image.png",
                         "RP": 70,
                         "Effect": {
@@ -332,8 +333,8 @@
                 "RP_max": 100,
                 "ATK": 5,
                 "DEF": 15,
-                "Precision": 100,
-                "VIT": 102,
+                "Accuracy": 100,
+                "SPD": 102,
                 "EXP": 0,
                 "Status": null,
                 "Sprite": {
@@ -349,7 +350,7 @@
                     ]
                 },
                 "Image": null,
-                "Skill": {
+                "Skills": {
                     "Skill_1": {
                         "Name": "Lumière du dragon",
                         "Detail": "Soigne ses alliés de 10%.",
@@ -366,7 +367,7 @@
                     },
                     "Skill_2": {
                         "Name": "Ecaille protectrice",
-                        "Details": "Augmente la defense de 10% d'un allié ou de soi-meme.",
+                        "Detail": "Augmente la defense de 10% d'un allié ou de soi-meme.",
                         "Image": "image.png",
                         "MP": 20,
                         "CD": 1,
@@ -380,7 +381,7 @@
                     },
                     "Skill_3": {
                         "Name": "Souffle du dragon",
-                        "Details": "Blesse légerement les cibles et réduit la defense de 10% des ennemis et de 5% des boss. ",
+                        "Detail": "Blesse légerement les cibles et réduit la defense de 10% des ennemis et de 5% des boss. ",
                         "Image": "image.png",
                         "MP": 30,
                         "CD": 2,
@@ -393,7 +394,7 @@
                     },
                     "Ultimate": {
                         "Name": "Bénédiction des Cieux",
-                        "Details": "Le Dieu vous accorde ses pouvoir et fait revivre un allié mort et tous ses points de vie.",
+                        "Detail": "Le Dieu vous accorde ses pouvoir et fait revivre un allié mort et tous ses points de vie.",
                         "Image": "image.png",
                         "RP": 100,
                         "Effect": {
@@ -428,8 +429,8 @@
                 "RP_max": 100,
                 "ATK": 15,
                 "DEF": 25,
-                "Precision": 100,
-                "VIT": 105,
+                "Accuracy": 100,
+                "SPD": 105,
                 "EXP": 0,
                 "Status": null,
                 "Sprite": {
@@ -445,7 +446,7 @@
                     ]
                 },
                 "Image": null,
-                "Skill": {
+                "Skills": {
                     "Skill_1": {
                         "Name": "Médaillon",
                         "Detail": "Augmente la vitesse de 10% d'un allié.",
@@ -462,7 +463,7 @@
                     },
                     "Skill_2": {
                         "Name": "Double lame",
-                        "Details": "S'équipe d'une deuxieme lame temporairement pour effectuer 2 attaque au lieu d'une, dure 2 tour",
+                        "Detail": "S'équipe d'une deuxieme lame temporairement pour effectuer 2 attaque au lieu d'une, dure 2 tour",
                         "Image": "image.png",
                         "MP": 20,
                         "CD": 3,
@@ -475,7 +476,7 @@
                     },
                     "Skill_3": {
                         "Name": "Oeuf de poule",
-                        "Details": "Augmente l'attaque d'un allié de 15%.",
+                        "Detail": "Augmente l'attaque d'un allié de 15%.",
                         "Image": "image.png",
                         "MP": 20,
                         "CD": 1,
@@ -489,7 +490,7 @@
                     },
                     "Ultimate": {
                         "Name": "Coeur vaillant",
-                        "Details": "Encaisse 50% du prochain dégât reçu et les convertit en points de vie.",
+                        "Detail": "Encaisse 50% du prochain dégât reçu et les convertit en points de vie.",
                         "Image": "image.png",
                         "RP": 100,
                         "Effect": {
@@ -525,8 +526,8 @@
                 "RP_max": 100,
                 "ATK": 10,
                 "DEF": 25,
-                "Precision": 100,
-                "VIT": 104,
+                "Accuracy": 100,
+                "SPD": 104,
                 "EXP": 0,
                 "Status": null,
                 "Sprite": {
@@ -542,7 +543,7 @@
                     ]
                 },
                 "Image": null,
-                "Skill": {
+                "Skills": {
                     "Skill_1": {
                         "Name": "Dragon d'Azur",
                         "Detail": "Invoque un dragon d'azur qui inflige un coup de queue, inflige des dégâts terrestre.",
@@ -558,7 +559,7 @@
                     },
                     "Skill_2": {
                         "Name": "Tortue Noire",
-                        "Details": "Invoque une tortue noire qui noye les ennemis dans un torent, inflige des dégâts d'eau.",
+                        "Detail": "Invoque une tortue noire qui noye les ennemis dans un torent, inflige des dégâts d'eau.",
                         "Image": "image.png",
                         "MP": 20,
                         "CD": 0,
@@ -571,7 +572,7 @@
                     },
                     "Skill_3": {
                         "Name": "Tigre Blanc",
-                        "Details": "Invoque un tigre blanc avec des éclairs, inflige des dégâts de foudre. 20% de paralyser les ennemis et 0% pour les boss.",
+                        "Detail": "Invoque un tigre blanc avec des éclairs, inflige des dégâts de foudre. 20% de paralyser les ennemis et 0% pour les boss.",
                         "Image": "image.png",
                         "MP": 25,
                         "CD": 0,
@@ -584,7 +585,7 @@
                     },
                     "Ultimate": {
                         "Name": "Frères jumeaux",
-                        "Details": "Invoque Skoll et Hati, deux loups jumeaux.\nSkoll enferme les ennemis dans un cercle de feu pendant 5 tours, inflige des dégâts de feu.\nHati réduit la défense et les dégâts des ennemis pendant 5 tours.",
+                        "Detail": "Invoque Skoll et Hati, deux loups jumeaux.\nSkoll enferme les ennemis dans un cercle de feu pendant 5 tours, inflige des dégâts de feu.\nHati réduit la défense et les dégâts des ennemis pendant 5 tours.",
                         "Image": "image.png",
                         "RP": 100,
                         "Effect": {
@@ -621,8 +622,8 @@
                         "Loic_Face_6.png",
                         "Loic_Face_7.png"
                     ],
-                    "Left": [],
-                    "Right": "ze",
+                    "Left": "",
+                    "Right": "",
                     "Behind": [
                         "Loic_Behind0.png",
                         "Loic_Behind1.png",
