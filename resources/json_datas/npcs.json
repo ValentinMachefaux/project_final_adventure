@@ -1,0 +1,168 @@
+{
+    "NPC": [
+        {
+            "Jonahthan": {
+                "Name": "Jonahthan",
+                "Sprite": {
+                    "Face": [
+                        "adult_men_face.png"
+                    ],
+                    "Right": [
+                        "adult_men_rightpng.png"
+                    ],
+                    "Left": [
+                        "adult_men_left.png"
+                    ],
+                    "Dialogue": "Merci de nous avoir sauver..."
+                }
+            },
+            "Gwen": {
+                "Name": "Gwen",
+                "Sprite": {
+                    "Face": [
+                        "adult_women_face.png"
+                    ],
+                    "Right": [
+                        "adult_women_right.png"
+                    ],
+                    "Left": [
+                        "adult_women_left.png"
+                    ],
+                    "Dialogue": "Je me demande si le village d'à côté n'a rien..."
+                }
+            },
+            "Tom": {
+                "Name": "Tom",
+                "Sprite": {
+                    "Face": [
+                        "kid_boy_face.png"
+                    ],
+                    "Right": [
+                        "kid_boy_right.png"
+                    ],
+                    "Left": [
+                        "kid_boy_left.png"
+                    ],
+                    "Dialogue": "Où est Jerry ?"
+                }
+            },
+            "Marie": {
+                "Name": "Marie",
+                "Sprite": {
+                    "Face": [
+                        "kid_girl_face.png"
+                    ],
+                    "Right": [
+                        "kid_girl_right.png"
+                    ],
+                    "Left": [
+                        "kid_girl_left.png"
+                    ],
+                    "Dialogue": "Mama...MAMANNNN ! *OUINNN*"
+                }
+            },
+            "Arthur": {
+                "Name": "Arthur",
+                "Sprite": {
+                    "Face": [
+                        "old_adult_men_face.png"
+                    ],
+                    "Right": [
+                        "old_adult_men_right.png"
+                    ],
+                    "Left": [
+                        "old_adult_men_left.png"
+                    ],
+                    "Dialogue": "Tout est fini..."
+                }
+            },
+            "Imène": {
+                "Name": "Imène",
+                "Sprite": {
+                    "Face": [
+                        "old_adult_women_face.png"
+                    ],
+                    "Right": [
+                        "old_adult_women_right.png"
+                    ],
+                    "Left": [
+                        "old_adult_women_left.png"
+                    ],
+                    "Dialogue": "Je peux encore récupérer ceci et cela..."
+                }
+            },
+            "Brontis": {
+                "Name": "Brontis",
+                "Sprite": {
+                    "Face": [
+                        "old_men_face.png"
+                    ],
+                    "Right": [
+                        "old_men_right.png"
+                    ],
+                    "Left": [
+                        "old_men_left.png"
+                    ],
+                    "Dialogue": "Tout ce que j'ai construit pendant toute ses années...Envoler..."
+                }
+            },
+            "Félicia": {
+                "Name": "Félicia",
+                "Sprite": {
+                    "Face": [
+                        "old_women_face.png"
+                    ],
+                    "Right": [
+                        "old_women_right.png"
+                    ],
+                    "Left": [
+                        "old_women_left.png"
+                    ],
+                    "Dialogue": "Tant de gens en sont morts..."
+                }
+            }
+        }
+    ],
+    "NPC_SP": [
+        {
+            "Loic": {
+                "Name": "Loic",
+                "Sprite": {
+                    "Face": [
+                        "Loic_Face_0.png",
+                        "Loic_Face_1.png",
+                        "Loic_Face_2.png",
+                        "Loic_Face_3.png",
+                        "Loic_Face_4.png",
+                        "Loic_Face_5.png",
+                        "Loic_Face_6.png",
+                        "Loic_Face_7.png"
+                    ],
+                    "Behind": [
+                        "Loic_Behind_0.png",
+                        "Loic_Behind_1.png",
+                        "Loic_Behind_2.png",
+                        "Loic_Behind_3.png",
+                        "Loic_Behind_4.png",
+                        "Loic_Behind_5.png",
+                        "Loic_Behind_6.png",
+                        "Loic_Behind_7.png"
+                    ]
+                }
+            },
+            "Vendeur": {
+                "Name": "Vendeur",
+                "Sprite": {
+                    "Face": [
+                        "old_adult_men_face.png"
+                    ],
+                    "Dialogue": "Bonjour, quel voulez-vous acheter ?",
+                    "Proposition": [
+                        "Acheter",
+                        "Quitter"
+                    ]
+                }
+            }
+        }
+    ]
+}
