@@ -367,17 +367,17 @@
 						}
 					}
 				},
-				"description": "Le Poisson est un animal des rives. Celui est à l'air faible.",
+				"description": "Le Poisson est un animal des rives. Celui-ci à l'air faible.",
 				"exp": 30,
 				"gold": 16,
 				"sprite": [
-					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_6.png",
 					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_0.png",
 					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_1.png",
 					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_2.png",
 					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_3.png",
 					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_4.png",
-					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_5.png"
+					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_5.png",
+					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_6.png"
 				],
 				"loot": {
 					"item1": {
