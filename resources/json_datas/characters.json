@@ -15,8 +15,8 @@
                 "RP_max": 100,
                 "ATK": 20,
                 "DEF": 20,
-                "Accuracy": 100,
-                "SPD": 103,
+                "Precision": 100,
+                "VIT": 103,
                 "EXP": 0,
                 "Status": null,
                 "Sprite": {
@@ -74,8 +74,13 @@
                         "Effect": {
                             "Value": 15,
                             "Type": "Attaque",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": true,
-                            "Element": "Physique"
+                            "Element": "Physique",
+                            "SE": [
+                                "Hero_Skill_1.ogg"
+                            ]
                         }
                     },
                     "Skill_2": {
@@ -87,8 +92,13 @@
                         "Effect": {
                             "Value": 1.15,
                             "Type": "Soin",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Lumière"
+                            "Element": "Lumière",
+                            "SE": [
+                                "Hero_Skill_2.ogg"
+                            ]
                         }
                     },
                     "Skill_3": {
@@ -101,8 +111,13 @@
                             "Value": 1.20,
                             "Value_boss": 5,
                             "Type": "Offensif",
+                            "is_buff": false,
+                            "is_debuff": true,
                             "AoE": true,
-                            "Element": "null"
+                            "Element": "null",
+                            "SE": [
+                                "Hero_Skill_3.ogg"
+                            ]
                         }
                     },
                     "Ultimate": {
@@ -114,8 +129,12 @@
                         "Effect": {
                             "Value": 2.5,
                             "Type": "Attaque",
-                            "AoE":true,
-                            "Element": "Lumière"
+                            "is_buff": false,
+                            "is_debuff": true,
+                            "Element": "Lumière",
+                            "SE": [
+                                "Hero_ultimate.ogg"
+                            ]
                         }
                     }
                 },
@@ -143,8 +162,8 @@
                 "RP_max": 100,
                 "ATK": 15,
                 "DEF": 30,
-                "Accuracy": 100,
-                "SPD": 101,
+                "Precision": 100,
+                "VIT": 101,
                 "EXP": 0,
                 "Status": null,
                 "Sprite": {
@@ -171,8 +190,13 @@
                             "Value": 1.2,
                             "Value_boss": 1.05,
                             "Type": "Attaque",
+                            "is_buff": false,
+                            "is_debuff": true,
                             "AoE": false,
-                            "Element": "Physique"
+                            "Element": "Physique",
+                            "SE": [
+                                "Valentin_Skill_1.ogg"
+                            ]
                         }
                     },
                     "Skill_2": {
@@ -184,8 +208,13 @@
                         "Effect": {
                             "Value": 1.1,
                             "Type": "Attaque",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": true,
-                            "Element": "Physique"
+                            "Element": "Physique",
+                            "SE": [
+                                "Valentin_Skill_2.ogg"
+                            ]
                         }
                     },
                     "Skill_3": {
@@ -198,8 +227,13 @@
                             "Value": 0,
                             "Value_boss": 1.2,
                             "Type": "Défensif",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Physique"
+                            "Element": "Physique",
+                            "SE": [
+                                "Valentin_Skill_3.ogg"
+                            ]
                         }
                     },
                     "Ultimate": {
@@ -210,8 +244,13 @@
                         "Effect": {
                             "Value": 1.5,
                             "Type": "Attaque",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Physique"
+                            "Element": "Physique",
+                            "SE": [
+                                "Valeint_ultimate.ogg"
+                            ]
                         }
                     }
                 },
@@ -239,8 +278,8 @@
                 "RP_max": 100,
                 "ATK": 25,
                 "DEF": 5,
-                "Accuracy": 100,
-                "SPD": 110,
+                "Precision": 100,
+                "VIT": 110,
                 "EXP": 0,
                 "Status": null,
                 "Sprite": {
@@ -266,8 +305,13 @@
                         "Effect": {
                             "Value": 1.1,
                             "Type": "Attaque",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Physique"
+                            "Element": "Physique",
+                            "SE": [
+                                "Thari_Skill_1.ogg"
+                            ]
                         }
                     },
                     "Skill_2": {
@@ -279,8 +323,13 @@
                         "Effect": {
                             "Value": 1.2,
                             "Type": "Attaque",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": true,
-                            "Element": "Physique"
+                            "Element": "Physique",
+                            "SE": [
+                                "Thari_Skill_2.ogg"
+                            ]
                         }
                     },
                     "Skill_3": {
@@ -292,8 +341,13 @@
                         "Effect": {
                             "Value": 1.2,
                             "Type": "Attaque",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Physique"
+                            "Element": "Physique",
+                            "SE": [
+                                "Thari_Skill_3"
+                            ]
                         }
                     },
                     "Ultimate": {
@@ -304,8 +358,13 @@
                         "Effect": {
                             "Value": 1.2,
                             "Type": "Attaque",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Ténèbres"
+                            "Element": "Ténèbres",
+                            "SE": [
+                                "Thari_ultimate.ogg"
+                            ]
                         }
                     }
                 },
@@ -333,8 +392,8 @@
                 "RP_max": 100,
                 "ATK": 5,
                 "DEF": 15,
-                "Accuracy": 100,
-                "SPD": 102,
+                "Precision": 100,
+                "VIT": 102,
                 "EXP": 0,
                 "Status": null,
                 "Sprite": {
@@ -361,8 +420,13 @@
                             "Value": 1.1,
                             "Value_Thari": 1.03,
                             "Type": "Soin",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": true,
-                            "Element": "Lumière"
+                            "Element": "Lumière",
+                            "SE": [
+                                "chrisline_skill1.mp3"
+                            ]
                         }
                     },
                     "Skill_2": {
@@ -375,8 +439,13 @@
                             "Value": 1.1,
                             "Value_Thari": 1.03,
                             "Type": "Défensif",
+                            "is_buff": true,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Lumière"
+                            "Element": "Lumière",
+                            "SE": [
+                                "chrisline_skill2.mp3"
+                            ]
                         }
                     },
                     "Skill_3": {
@@ -388,8 +457,13 @@
                         "Effect": {
                             "Value": 1.1,
                             "Type": "Offensif",
+                            "is_buff": false,
+                            "is_debuff": true,
                             "AoE": true,
-                            "Element": "Lumière"
+                            "Element": "Lumière",
+                            "SE": [
+                                "chrisline_skill3.mp3"
+                            ]
                         }
                     },
                     "Ultimate": {
@@ -400,8 +474,13 @@
                         "Effect": {
                             "Value": 0,
                             "Type": "Soin",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Lumière"
+                            "Element": "Lumière",
+                            "SE": [
+                                "chrisline_ultimate.mp3"
+                            ]
                         }
                     }
                 },
@@ -429,8 +508,8 @@
                 "RP_max": 100,
                 "ATK": 15,
                 "DEF": 25,
-                "Accuracy": 100,
-                "SPD": 105,
+                "Precision": 100,
+                "VIT": 105,
                 "EXP": 0,
                 "Status": null,
                 "Sprite": {
@@ -457,8 +536,13 @@
                             "Value": 1.1,
                             "Value_Thari": 1.05,
                             "Type": "Offensif",
+                            "is_buff": true,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Lumière"
+                            "Element": "Lumière",
+                            "SE": [
+                                "Lorys_Skill_1.ogg"
+                            ]
                         }
                     },
                     "Skill_2": {
@@ -470,8 +554,13 @@
                         "Effect": {
                             "Value": 1.2,
                             "Type": "Attaque",
+                            "is_buff": true,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Physique"
+                            "Element": "Physique",
+                            "SE": [
+                                "Lorys_Skill_2.mp3"
+                            ]
                         }
                     },
                     "Skill_3": {
@@ -484,8 +573,13 @@
                             "Value": 1.15,
                             "Value_Thari": 1.08,
                             "Type": "Offensif",
+                            "is_buff": true,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Lumière"
+                            "Element": "Lumière",
+                            "SE": [
+                                "Lorys_Skill_3.mp3"
+                            ]
                         }
                     },
                     "Ultimate": {
@@ -497,8 +591,13 @@
                             "Value": 0,
                             "Value_boss": 1.5,
                             "Type": "Soin",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Lumière"
+                            "Element": "Lumière",
+                            "SE": [
+                                "Lorys_Ultimate.ogg"
+                            ]
                         }
                     }
                 },
@@ -526,8 +625,8 @@
                 "RP_max": 100,
                 "ATK": 10,
                 "DEF": 25,
-                "Accuracy": 100,
-                "SPD": 104,
+                "Precision": 100,
+                "VIT": 104,
                 "EXP": 0,
                 "Status": null,
                 "Sprite": {
@@ -553,8 +652,13 @@
                         "Effect": {
                             "Value": 1.7,
                             "Type": "Attaque",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": false,
-                            "Element": "Terrestre"
+                            "Element": "Terrestre",
+                            "SE": [
+                                "Rosine_Skill_1"
+                            ]
                         }
                     },
                     "Skill_2": {
@@ -566,8 +670,13 @@
                         "Effect": {
                             "Value": 1.6,
                             "Type": "Attaque",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": true,
-                            "Element": "Eau"
+                            "Element": "Eau",
+                            "SE": [
+                                "Rosine_skill_2.ogg"
+                            ]
                         }
                     },
                     "Skill_3": {
@@ -579,8 +688,13 @@
                         "Effect": {
                             "Value": 1.6,
                             "Type": "Attaque",
+                            "is_buff": false,
+                            "is_debuff": false,
                             "AoE": true,
-                            "Element": "Foudre"
+                            "Element": "Foudre",
+                            "SE": [
+                                "Rosine_Skill_3.ogg"
+                            ]
                         }
                     },
                     "Ultimate": {
@@ -591,8 +705,13 @@
                         "Effect": {
                             "Value": 1.8,
                             "Type": "Attaque",
+                            "is_buff": false,
+                            "is_debuff": true,
                             "AoE": true,
-                            "Element": "Feu"
+                            "Element": "Feu",
+                            "SE": [
+                                "Rosine_ultimate.ogg"
+                            ]
                         }
                     }
                 },
@@ -604,37 +723,6 @@
                     "Wind": 2,
                     "Light": -1,
                     "Dark": 1
-                }
-            }
-        }
-    ],
-    "NPC": [
-        {
-            "Loic": {
-                "Sprite": {
-                    "Face": [
-                        "Loic_Face_0.png",
-                        "Loic_Face_1.png",
-                        "Loic_Face_2.png",
-                        "Loic_Face_3.png",
-                        "Loic_Face_4.png",
-                        "Loic_Face_5.png",
-                        "Loic_Face_6.png",
-                        "Loic_Face_7.png"
-                    ],
-                    "Left": "",
-                    "Right": "",
-                    "Behind": [
-                        "Loic_Behind0.png",
-                        "Loic_Behind1.png",
-                        "Loic_Behind2.png",
-                        "Loic_Behind3.png",
-                        "Loic_Behind4.png",
-                        "Loic_Behind5.png",
-                        "Loic_Behind6.png",
-                        "Loic_Behind7.png"
-                    ],
-                    "Idle": []
                 }
             }
         }
