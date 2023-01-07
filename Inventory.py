@@ -7,7 +7,7 @@ get_inventory = data["object"]
 get_id = get_inventory[0]
 info_Potion_de_vie = get_id
 
-class inventory:
+class Inventory:
 
     def __init__(self):
         pass

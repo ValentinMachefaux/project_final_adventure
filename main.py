@@ -1,7 +1,7 @@
 from Character import *
 from Monster import *
 
-C=Character(json_class("Lancer"))
+C=Character(json_class("lancer"))
 M=Monster(json_monster("4"))
 
 # Test character

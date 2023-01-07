@@ -1,12 +1,12 @@
 class Skill :
     def __init__(self, info_skill):
-        self.detail = info_skill['Detail']
-        self.name = info_skill['Name']
-        self.image = info_skill['Image']
-        self.value = info_skill['Effect']['Value']
-        self.skill_type = info_skill['Effect']['Type']
-        self.is_aoe = info_skill['Effect']['AoE']
-        self.element = info_skill['Effect']['Element']
+        self.detail = info_skill['detail']
+        self.name = info_skill['name']
+        self.image = info_skill['image']
+        self.value = info_skill['effect']['value']
+        self.skill_type = info_skill['effect']['type']
+        self.is_aoe = info_skill['effect']['aoe']
+        self.element = info_skill['effect']['element']
 
     def get_info(self) :
         return self.info
