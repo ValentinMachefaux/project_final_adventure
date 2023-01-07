@@ -1,725 +1,772 @@
 {
-	"monsters": [
-		{
-			"1": {
-				"name": "Slime Vert",
-				"level": 1,
-				"hp": 50,
-				"atk": 10,
-				"def": 10,
-				"spd": 100,
-				"accuracy": 100,
-				"weakness": [
-					"Feu",
-					"Eau",
-					"Foudre",
-					"Terre",
-					"Vent",
-					"Lumière",
-					"Ténèbre"
-				],
-				"resistance": [
-					"Physique"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Attaque",
-						"effect": {
-							"value": 1.2,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "Le Slime est un monstre élémentaire relativement faible.",
-				"exp": 10,
-				"gold": 2,
-				"sprite": [
-					"monstres/1-zone1-foret/slime-vertslime-vert_00.png",
-					"monstres/1-zone1-foret/slime-vertslime-vert_01.png",
-					"monstres/1-zone1-foret/slime-vertslime-vert_02.png",
-					"monstres/1-zone1-foret/slime-vertslime-vert_03.png",
-					"monstres/1-zone1-foret/slime-vertslime-vert_04.png",
-					"monstres/1-zone1-foret/slime-vertslime-vert_05.png",
-					"monstres/1-zone1-foret/slime-vertslime-vert_06.png",
-					"monstres/1-zone1-foret/slime-vertslime-vert_07.png",
-					"monstres/1-zone1-foret/slime-vertslime-vert_08.png",
-					"monstres/1-zone1-foret/slime-vertslime-vert_09.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de vie",
-						"quantity": 1,
-						"rate": 0.25
-					}
-				},
-				"is_boss": false
-			},
-			"2": {
-				"name": "Slime Rose",
-				"level": 2,
-				"hp": 70,
-				"atk": 15,
-				"def": 13,
-				"spd": 102,
-				"accuracy": 100,
-				"weakness": [
-					"Feu",
-					"Eau",
-					"Foudre",
-					"Terre",
-					"Vent",
-					"Lumière",
-					"Ténèbre"
-				],
-				"resistance": [
-					"Physique"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Attaque",
-						"effect": {
-							"value": 1.2,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "Le Slime est un monstre élémentaire relativement faible.",
-				"exp": 14,
-				"gold": 4,
-				"sprite": [
-					"monstres/1-zone1-foret/slime-rose/slime-rose_00.png",
-					"monstres/1-zone1-foret/slime-rose/slime-rose_01.png",
-					"monstres/1-zone1-foret/slime-rose/slime-rose_02.png",
-					"monstres/1-zone1-foret/slime-rose/slime-rose_03.png",
-					"monstres/1-zone1-foret/slime-rose/slime-rose_04.png",
-					"monstres/1-zone1-foret/slime-rose/slime-rose_05.png",
-					"monstres/1-zone1-foret/slime-rose/slime-rose_06.png",
-					"monstres/1-zone1-foret/slime-rose/slime-rose_07.png",
-					"monstres/1-zone1-foret/slime-rose/slime-rose_08.png",
-					"monstres/1-zone1-foret/slime-rose/slime-rose_09.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de mana",
-						"quantity": 1,
-						"rate": 0.25
-					}
-				},
-				"is_boss": false
-			},
-			"3": {
-				"name": "Lapin",
-				"level": 3,
-				"hp": 85,
-				"atk": 20,
-				"def": 16,
-				"spd": 105,
-				"accuracy": 100,
-				"weakness": [
-					"Feu",
-					"Physique"
-				],
-				"resistance": [
-					"Terre"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Morsure",
-						"effect": {
-							"value": 1.2,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "Le Lapin est un animal sauvage des forêts.",
-				"exp": 16,
-				"gold": 6,
-				"sprite": [
-					"monstres/1-zone1-foret/lapin/lapin_00.png",
-					"monstres/1-zone1-foret/lapin/lapin_01.png",
-					"monstres/1-zone1-foret/lapin/lapin_02.png",
-					"monstres/1-zone1-foret/lapin/lapin_03.png",
-					"monstres/1-zone1-foret/lapin/lapin_04.png",
-					"monstres/1-zone1-foret/lapin/lapin_05.png",
-					"monstres/1-zone1-foret/lapin/lapin_06.png",
-					"monstres/1-zone1-foret/lapin/lapin_07.png",
-					"monstres/1-zone1-foret/lapin/lapin_08.png",
-					"monstres/1-zone1-foret/lapin/lapin_09.png",
-					"monstres/1-zone1-foret/lapin/lapin_10.png",
-					"monstres/1-zone1-foret/lapin/lapin_11.png",
-					"monstres/1-zone1-foret/lapin/lapin_12.png",
-					"monstres/1-zone1-foret/lapin/lapin_13.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de vie",
-						"quantity": 1,
-						"rate": 0.25
-					}
-				},
-				"is_boss": false
-			},
-			"4": {
-				"name": "Cochon",
-				"level": 3,
-				"hp": 100,
-				"atk": 30,
-				"def": 20,
-				"spd": 107,
-				"accuracy": 100,
-				"weakness": [
-					"Feu"
-				],
-				"resistance": [
-					"Physique",
-					"Terre"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Charge",
-						"effect": {
-							"value": 1.2,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "Le Cochon est un animal sauvage des forêts très dangereux. Faites attention.",
-				"exp": 18,
-				"gold": 8,
-				"sprite": [
-					"monstres/1-zone1-foret/cochon/cochon_0.png",
-					"monstres/1-zone1-foret/cochon/cochon_1.png",
-					"monstres/1-zone1-foret/cochon/cochon_2.png",
-					"monstres/1-zone1-foret/cochon/cochon_3.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de vie",
-						"quantity": 1,
-						"rate": 0.30
-					}
-				},
-				"is_boss": false
-			},
-			"5": {
-				"name": "Vache",
-				"level": 3,
-				"hp": 120,
-				"atk": 35,
-				"def": 25,
-				"spd": 108,
-				"accuracy": 100,
-				"weakness": [
-					"Feu"
-				],
-				"resistance": [
-					"Physique",
-					"Terre"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Charge",
-						"effect": {
-							"value": 1.2,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "La vache est un animal sauvage des forêts très dangereux. Faites attention.",
-				"exp": 20,
-				"gold": 10,
-				"sprite": [
-					"monstres/1-zone1-foret/vache/vache_0.png",
-					"monstres/1-zone1-foret/vache/vache_1.png",
-					"monstres/1-zone1-foret/vache/vache_2.png",
-					"monstres/1-zone1-foret/vache/vache_3.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de mana",
-						"quantity": 1,
-						"rate": 0.30
-					}
-				},
-				"is_boss": false
-			},
-			"6": {
-				"name": "Taureau",
-				"level": 6,
-				"hp": 130,
-				"atk": 37,
-				"def": 27,
-				"spd": 109,
-				"accuracy": 100,
-				"weakness": [
-					"Feu"
-				],
-				"resistance": [
-					"Physique",
-					"Terre"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Charge",
-						"effect": {
-							"value": 1.3,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "Le Taureau est un animal sauvage des forêts très dangereux. Faites attention.",
-				"exp": 22,
-				"gold": 11,
-				"sprite": [
-					"monstres/1-zone1-foret/taureau/taureau_0.png",
-					"monstres/1-zone1-foret/taureau/taureau_1.png",
-					"monstres/1-zone1-foret/taureau/taureau_2.png",
-					"monstres/1-zone1-foret/taureau/taureau_3.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de vie",
-						"quantity": 1,
-						"rate": 0.30
-					}
-				},
-				"is_boss": false
-			},
-			"7": {
-				"name": "Canard",
-				"level": 8,
-				"hp": 160,
-				"atk": 45,
-				"def": 32,
-				"spd": 100,
-				"accuracy": 111,
-				"weakness": [
-					"Foudre"
-				],
-				"resistance": [
-					"Eau"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Coup de bec",
-						"effect": {
-							"value": 1.3,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "Le Canard est un animal sauvage des rives. Faites attention.",
-				"exp": 28,
-				"gold": 15,
-				"sprite": [
-					"monstres/2-dj1-ocean/canard/canard_0.png",
-					"monstres/2-dj1-ocean/canard/canard_1.png",
-					"monstres/2-dj1-ocean/canard/canard_2.png",
-					"monstres/2-dj1-ocean/canard/canard_3.png",
-					"monstres/2-dj1-ocean/canard/canard_4.png",
-					"monstres/2-dj1-ocean/canard/canard_5.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de vie",
-						"quantity": 1,
-						"rate": 0.30
-					}
-				},
-				"is_boss": false
-			},
-			"8": {
-				"name": "Poisson faible",
-				"level": 9,
-				"hp": 170,
-				"atk": 48,
-				"def": 34,
-				"spd": 114,
-				"accuracy": 100,
-				"weakness": [
-					"Foudre"
-				],
-				"resistance": [
-					"Eau"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Trempette énervée",
-						"effect": {
-							"value": 1.2,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "Le Poisson est un animal des rives. Celui-ci à l'air faible.",
-				"exp": 30,
-				"gold": 16,
-				"sprite": [
-					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_0.png",
-					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_1.png",
-					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_2.png",
-					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_3.png",
-					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_4.png",
-					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_5.png",
-					"monstres/2-dj1-ocean/poisson-faible/poisson-faible_6.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de vie",
-						"quantity": 1,
-						"rate": 0.30
-					}
-				},
-				"is_boss": false
-			},
-			"9": {
-				"name": "Poisson",
-				"level": 10,
-				"hp": 180,
-				"atk": 51,
-				"def": 37,
-				"spd": 116,
-				"accuracy": 100,
-				"weakness": [
-					"Foudre"
-				],
-				"resistance": [
-					"Eau"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Trempette énervée",
-						"effect": {
-							"value": 1.2,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "Le Poisson est un animal des rives.",
-				"exp": 32,
-				"gold": 17,
-				"sprite": [
-					"monstres/2-dj1-ocean/poisson/poisson_00.png",
-					"monstres/2-dj1-ocean/poisson/poisson_01.png",
-					"monstres/2-dj1-ocean/poisson/poisson_02.png",
-					"monstres/2-dj1-ocean/poisson/poisson_03.png",
-					"monstres/2-dj1-ocean/poisson/poisson_04.png",
-					"monstres/2-dj1-ocean/poisson/poisson_05.png",
-					"monstres/2-dj1-ocean/poisson/poisson_06.png",
-					"monstres/2-dj1-ocean/poisson/poisson_07.png",
-					"monstres/2-dj1-ocean/poisson/poisson_08.png",
-					"monstres/2-dj1-ocean/poisson/poisson_09.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de mana",
-						"quantity": 1,
-						"rate": 0.30
-					}
-				},
-				"is_boss": false
-			},
-			"10": {
-				"name": "Poisson fort",
-				"level": 11,
-				"hp": 200,
-				"atk": 54,
-				"def": 40,
-				"spd": 118,
-				"accuracy": 100,
-				"weakness": [
-					"Foudre"
-				],
-				"resistance": [
-					"Eau"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Trempette très énervée",
-						"effect": {
-							"value": 1.2,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "Le Poisson est un animal des rives. Il a l'air féroce !",
-				"exp": 34,
-				"gold": 18,
-				"sprite": [
-					"monstres/2-dj1-ocean/poisson-fort/poisson-fort_0.png",
-					"monstres/2-dj1-ocean/poisson-fort/poisson-fort_1.png",
-					"monstres/2-dj1-ocean/poisson-fort/poisson-fort_2.png",
-					"monstres/2-dj1-ocean/poisson-fort/poisson-fort_3.png",
-					"monstres/2-dj1-ocean/poisson-fort/poisson-fort_4.png",
-					"monstres/2-dj1-ocean/poisson-fort/poisson-fort_5.png",
-					"monstres/2-dj1-ocean/poisson-fort/poisson-fort_6.png",
-					"monstres/2-dj1-ocean/poisson-fort/poisson-fort_7.png",
-					"monstres/2-dj1-ocean/poisson-fort/poisson-fort_8.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de mana",
-						"quantity": 1,
-						"rate": 0.30
-					}
-				},
-				"is_boss": false
-			},
-			"11": {
-				"name": "Poulpe",
-				"level": 12,
-				"hp": 230,
-				"atk": 54,
-				"def": 40,
-				"spd": 120,
-				"accuracy": 100,
-				"weakness": [
-					"Foudre"
-				],
-				"resistance": [
-					"Eau"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Coup de tentacules",
-						"effect": {
-							"value": 1.2,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "Le Poulpe est un animal des rives.",
-				"exp": 36,
-				"gold": 18,
-				"sprite": [
-					"monstres/2-dj1-ocean/poulpe/poulpe_0.png",
-					"monstres/2-dj1-ocean/poulpe/poulpe_1.png",
-					"monstres/2-dj1-ocean/poulpe/poulpe_2.png",
-					"monstres/2-dj1-ocean/poulpe/poulpe_3.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de mana",
-						"quantity": 1,
-						"rate": 0.30
-					}
-				},
-				"is_boss": false
-			},
-			"12": {
-				"name": "Poulpe fort",
-				"level": 13,
-				"hp": 250,
-				"atk": 58,
-				"def": 45,
-				"spd": 121,
-				"accuracy": 100,
-				"weakness": [
-					"Foudre"
-				],
-				"resistance": [
-					"Eau"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Coup de tentacules",
-						"effect": {
-							"value": 1.3,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "Le Poulpe est un animal des rives. Il a l'air féroce !",
-				"exp": 36,
-				"gold": 18,
-				"sprite": [
-					"monstres/2-dj1-ocean/poulpe-fort/poulpe-fort_0.png",
-					"monstres/2-dj1-ocean/poulpe-fort/poulpe-fort_1.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de mana",
-						"quantity": 1,
-						"rate": 0.30
-					}
-				},
-				"is_boss": false
-			},
-			"13": {
-				"name": "Lapin énervé",
-				"level": 16,
-				"hp": 300,
-				"atk": 63,
-				"def": 50,
-				"spd": 100,
-				"accuracy": 100,
-				"weakness": [
-					"Foudre"
-				],
-				"resistance": [
-					"Eau"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Coup de tentacules",
-						"effect": {
-							"value": 1.3,
-							"type": "Attaque",
-							"element": "Physique"
-						}
-					}
-				},
-				"description": "Le Poisson est un animal des rives. Il a l'air féroce !",
-				"exp": 36,
-				"gold": 18,
-				"sprite": [
-					"monstres/2-dj1-ocean/poulpe-fort/poulpe-fort_0.png",
-					"monstres/2-dj1-ocean/poulpe-fort/poulpe-fort_1.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de mana",
-						"quantity": 1,
-						"rate": 0.30
-					}
-				},
-				"is_boss": false
-			}
-		}
-	],
-	"boss": [
-		{
-			"1": {
-				"name": "Loki",
-				"level": 15,
-				"hp": 1000,
-				"atk": 70,
-				"def": 55,
-				"spd": 135,
-				"accuracy": 100,
-				"weakness": [],
-				"resistance": [
-					"Feu",
-					"Eau",
-					"Foudre",
-					"Terre",
-					"Vent",
-					"Lumière",
-					"Ténèbre",
-					"Physique"
-				],
-				"status": null,
-				"skills": {
-					"skill1": {
-						"name": "Ronces",
-						"effect": {
-							"value": 1,
-							"description": "Empoisonne pendant trois tour les joueurs",
-							"type": "Attaque",
-							"element": "Terre",
-							"cooldown": 3,
-							"aoe": true
-						}
-					},
-					"skill2": {
-						"name": "Attaque de poulpe",
-						"effect": {
-							"value": 1,
-							"description": "Invoque des poulpes",
-							"type": "Attaque",
-							"element": "Physique",
-							"cooldown": 3,
-							"aoe": true
-						}
-					},
-					"ultime": {
-						"name": "Spore d'endormissement",
-						"effect": {
-							"value": 1,
-							"description": "Endors et empoisonne pendant 2 tours un ennemi",
-							"type": "Attaque",
-							"element": "Physique",
-							"cooldown" : 2,
-							"aoe": false
-						}
-					}
-				},
-				"description": "Loki est une bête féroce et terrifiante. Prenez garde !",
-				"exp": 100,
-				"gold": 100,
-				"sprite": [
-					"monstres/2-dj1-ocean/loki/loki_00.png",
-					"monstres/2-dj1-ocean/loki/loki_01.png",
-					"monstres/2-dj1-ocean/loki/loki_02.png",
-					"monstres/2-dj1-ocean/loki/loki_03.png",
-					"monstres/2-dj1-ocean/loki/loki_04.png",
-					"monstres/2-dj1-ocean/loki/loki_05.png",
-					"monstres/2-dj1-ocean/loki/loki_06.png",
-					"monstres/2-dj1-ocean/loki/loki_07.png",
-					"monstres/2-dj1-ocean/loki/loki_08.png",
-					"monstres/2-dj1-ocean/loki/loki_09.png",
-					"monstres/2-dj1-ocean/loki/loki_10.png",
-					"monstres/2-dj1-ocean/loki/loki_11.png",
-					"monstres/2-dj1-ocean/loki/loki_12.png",
-					"monstres/2-dj1-ocean/loki/loki_13.png",
-					"monstres/2-dj1-ocean/loki/loki_14.png",
-					"monstres/2-dj1-ocean/loki/loki_15.png",
-					"monstres/2-dj1-ocean/loki/loki_16.png",
-					"monstres/2-dj1-ocean/loki/loki_17.png",
-					"monstres/2-dj1-ocean/loki/loki_18.png",
-					"monstres/2-dj1-ocean/loki/loki_19.png",
-					"monstres/2-dj1-ocean/loki/loki_20.png",
-					"monstres/2-dj1-ocean/loki/loki_21.png",
-					"monstres/2-dj1-ocean/loki/loki_22.png",
-					"monstres/2-dj1-ocean/loki/loki_23.png",
-					"monstres/2-dj1-ocean/loki/loki_24.png",
-					"monstres/2-dj1-ocean/loki/loki_25.png",
-					"monstres/2-dj1-ocean/loki/loki_26.png",
-					"monstres/2-dj1-ocean/loki/loki_27.png",
-					"monstres/2-dj1-ocean/loki/loki_28.png",
-					"monstres/2-dj1-ocean/loki/loki_29.png",
-					"monstres/2-dj1-ocean/loki/loki_30.png"
-				],
-				"loot": {
-					"item1": {
-						"name": "Potion de vie",
-						"quantity": 5,
-						"rate": 1
-					},
-					"item2": {
-						"name": "Potion de mana",
-						"quantity": 5,
-						"rate": 1
-					}
-
-				},
-				"is_boss": true
-			}
-		}
-	]
+    "monsters": [
+        {
+            "1": {
+                "name": "Slime Vert",
+                "level": 1,
+                "hp": 50,
+                "atk": 10,
+                "def": 10,
+                "spd": 100,
+                "accuracy": 100,
+                "weakness": [
+                    "Feu",
+                    "Eau",
+                    "Foudre",
+                    "Terre",
+                    "Vent",
+                    "Lumière",
+                    "Ténèbre"
+                ],
+                "resistance": [
+                    "Physique"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Attaque",
+                        "effect": {
+                            "value": 1.2,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Auto_Attack_Monsters.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "Le Slime est un monstre élémentaire relativement faible.",
+                "exp": 10,
+                "gold": 2,
+                "sprite": [
+                    "monstres/1-zone1-foret/slime-vertslime-vert_00.png",
+                    "monstres/1-zone1-foret/slime-vertslime-vert_01.png",
+                    "monstres/1-zone1-foret/slime-vertslime-vert_02.png",
+                    "monstres/1-zone1-foret/slime-vertslime-vert_03.png",
+                    "monstres/1-zone1-foret/slime-vertslime-vert_04.png",
+                    "monstres/1-zone1-foret/slime-vertslime-vert_05.png",
+                    "monstres/1-zone1-foret/slime-vertslime-vert_06.png",
+                    "monstres/1-zone1-foret/slime-vertslime-vert_07.png",
+                    "monstres/1-zone1-foret/slime-vertslime-vert_08.png",
+                    "monstres/1-zone1-foret/slime-vertslime-vert_09.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de vie",
+                        "quantity": 1,
+                        "rate": 0.25
+                    }
+                },
+                "is_boss": false
+            },
+            "2": {
+                "name": "Slime Rose",
+                "level": 2,
+                "hp": 70,
+                "atk": 15,
+                "def": 13,
+                "spd": 102,
+                "accuracy": 100,
+                "weakness": [
+                    "Feu",
+                    "Eau",
+                    "Foudre",
+                    "Terre",
+                    "Vent",
+                    "Lumière",
+                    "Ténèbre"
+                ],
+                "resistance": [
+                    "Physique"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Attaque",
+                        "effect": {
+                            "value": 1.2,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Auto_Attack_Monsters.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "Le Slime est un monstre élémentaire relativement faible.",
+                "exp": 14,
+                "gold": 4,
+                "sprite": [
+                    "monstres/1-zone1-foret/slime-rose/slime-rose_00.png",
+                    "monstres/1-zone1-foret/slime-rose/slime-rose_01.png",
+                    "monstres/1-zone1-foret/slime-rose/slime-rose_02.png",
+                    "monstres/1-zone1-foret/slime-rose/slime-rose_03.png",
+                    "monstres/1-zone1-foret/slime-rose/slime-rose_04.png",
+                    "monstres/1-zone1-foret/slime-rose/slime-rose_05.png",
+                    "monstres/1-zone1-foret/slime-rose/slime-rose_06.png",
+                    "monstres/1-zone1-foret/slime-rose/slime-rose_07.png",
+                    "monstres/1-zone1-foret/slime-rose/slime-rose_08.png",
+                    "monstres/1-zone1-foret/slime-rose/slime-rose_09.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de mana",
+                        "quantity": 1,
+                        "rate": 0.25
+                    }
+                },
+                "is_boss": false
+            },
+            "3": {
+                "name": "Lapin",
+                "level": 3,
+                "hp": 85,
+                "atk": 20,
+                "def": 16,
+                "spd": 105,
+                "accuracy": 100,
+                "weakness": [
+                    "Feu",
+                    "Physique"
+                ],
+                "resistance": [
+                    "Terre"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Morsure",
+                        "effect": {
+                            "value": 1.2,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Bite_Animals.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "Le Lapin est un animal sauvage des forêts.",
+                "exp": 16,
+                "gold": 6,
+                "sprite": [
+                    "monstres/1-zone1-foret/lapin/lapin_00.png",
+                    "monstres/1-zone1-foret/lapin/lapin_01.png",
+                    "monstres/1-zone1-foret/lapin/lapin_02.png",
+                    "monstres/1-zone1-foret/lapin/lapin_03.png",
+                    "monstres/1-zone1-foret/lapin/lapin_04.png",
+                    "monstres/1-zone1-foret/lapin/lapin_05.png",
+                    "monstres/1-zone1-foret/lapin/lapin_06.png",
+                    "monstres/1-zone1-foret/lapin/lapin_07.png",
+                    "monstres/1-zone1-foret/lapin/lapin_08.png",
+                    "monstres/1-zone1-foret/lapin/lapin_09.png",
+                    "monstres/1-zone1-foret/lapin/lapin_10.png",
+                    "monstres/1-zone1-foret/lapin/lapin_11.png",
+                    "monstres/1-zone1-foret/lapin/lapin_12.png",
+                    "monstres/1-zone1-foret/lapin/lapin_13.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de vie",
+                        "quantity": 1,
+                        "rate": 0.25
+                    }
+                },
+                "is_boss": false
+            },
+            "4": {
+                "name": "Cochon",
+                "level": 3,
+                "hp": 100,
+                "atk": 30,
+                "def": 20,
+                "spd": 107,
+                "accuracy": 100,
+                "weakness": [
+                    "Feu"
+                ],
+                "resistance": [
+                    "Physique",
+                    "Terre"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Charge",
+                        "effect": {
+                            "value": 1.2,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Bite_Animals.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "Le Cochon est un animal sauvage des forêts très dangereux. Faites attention.",
+                "exp": 18,
+                "gold": 8,
+                "sprite": [
+                    "monstres/1-zone1-foret/cochon/cochon_0.png",
+                    "monstres/1-zone1-foret/cochon/cochon_1.png",
+                    "monstres/1-zone1-foret/cochon/cochon_2.png",
+                    "monstres/1-zone1-foret/cochon/cochon_3.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de vie",
+                        "quantity": 1,
+                        "rate": 0.30
+                    }
+                },
+                "is_boss": false
+            },
+            "5": {
+                "name": "Vache",
+                "level": 3,
+                "hp": 120,
+                "atk": 35,
+                "def": 25,
+                "spd": 108,
+                "accuracy": 100,
+                "weakness": [
+                    "Feu"
+                ],
+                "resistance": [
+                    "Physique",
+                    "Terre"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Charge",
+                        "effect": {
+                            "value": 1.2,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Bite_Animals.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "La vache est un animal sauvage des forêts très dangereux. Faites attention.",
+                "exp": 20,
+                "gold": 10,
+                "sprite": [
+                    "monstres/1-zone1-foret/vache/vache_0.png",
+                    "monstres/1-zone1-foret/vache/vache_1.png",
+                    "monstres/1-zone1-foret/vache/vache_2.png",
+                    "monstres/1-zone1-foret/vache/vache_3.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de mana",
+                        "quantity": 1,
+                        "rate": 0.30
+                    }
+                },
+                "is_boss": false
+            },
+            "6": {
+                "name": "Taureau",
+                "level": 6,
+                "hp": 130,
+                "atk": 37,
+                "def": 27,
+                "spd": 109,
+                "accuracy": 100,
+                "weakness": [
+                    "Feu"
+                ],
+                "resistance": [
+                    "Physique",
+                    "Terre"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Charge",
+                        "effect": {
+                            "value": 1.3,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Bite_Animals.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "Le Taureau est un animal sauvage des forêts très dangereux. Faites attention.",
+                "exp": 22,
+                "gold": 11,
+                "sprite": [
+                    "monstres/1-zone1-foret/taureau/taureau_0.png",
+                    "monstres/1-zone1-foret/taureau/taureau_1.png",
+                    "monstres/1-zone1-foret/taureau/taureau_2.png",
+                    "monstres/1-zone1-foret/taureau/taureau_3.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de vie",
+                        "quantity": 1,
+                        "rate": 0.30
+                    }
+                },
+                "is_boss": false
+            },
+            "7": {
+                "name": "Canard",
+                "level": 8,
+                "hp": 160,
+                "atk": 45,
+                "def": 32,
+                "spd": 100,
+                "accuracy": 111,
+                "weakness": [
+                    "Foudre"
+                ],
+                "resistance": [
+                    "Eau"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Coup de bec",
+                        "effect": {
+                            "value": 1.3,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Bite_Animals.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "Le Canard est un animal sauvage des rives. Faites attention.",
+                "exp": 28,
+                "gold": 15,
+                "sprite": [
+                    "monstres/2-dj1-ocean/canard/canard_0.png",
+                    "monstres/2-dj1-ocean/canard/canard_1.png",
+                    "monstres/2-dj1-ocean/canard/canard_2.png",
+                    "monstres/2-dj1-ocean/canard/canard_3.png",
+                    "monstres/2-dj1-ocean/canard/canard_4.png",
+                    "monstres/2-dj1-ocean/canard/canard_5.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de vie",
+                        "quantity": 1,
+                        "rate": 0.30
+                    }
+                },
+                "is_boss": false
+            },
+            "8": {
+                "name": "Poisson faible",
+                "level": 9,
+                "hp": 170,
+                "atk": 48,
+                "def": 34,
+                "spd": 114,
+                "accuracy": 100,
+                "weakness": [
+                    "Foudre"
+                ],
+                "resistance": [
+                    "Eau"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Trempette énervée",
+                        "effect": {
+                            "value": 1.2,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Trempette.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "Le Poisson est un animal des rives. Celui est à l'air faible.",
+                "exp": 30,
+                "gold": 16,
+                "sprite": [
+                    "monstres/2-dj1-ocean/poisson-faible/poisson-faible_0.png",
+                    "monstres/2-dj1-ocean/poisson-faible/poisson-faible_1.png",
+                    "monstres/2-dj1-ocean/poisson-faible/poisson-faible_2.png",
+                    "monstres/2-dj1-ocean/poisson-faible/poisson-faible_3.png",
+                    "monstres/2-dj1-ocean/poisson-faible/poisson-faible_4.png",
+                    "monstres/2-dj1-ocean/poisson-faible/poisson-faible_5.png",
+                    "monstres/2-dj1-ocean/poisson-faible/poisson-faible_6.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de vie",
+                        "quantity": 1,
+                        "rate": 0.30
+                    }
+                },
+                "is_boss": false
+            },
+            "9": {
+                "name": "Poisson",
+                "level": 10,
+                "hp": 180,
+                "atk": 51,
+                "def": 37,
+                "spd": 116,
+                "accuracy": 100,
+                "weakness": [
+                    "Foudre"
+                ],
+                "resistance": [
+                    "Eau"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Trempette énervée",
+                        "effect": {
+                            "value": 1.2,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Trempette.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "Le Poisson est un animal des rives.",
+                "exp": 32,
+                "gold": 17,
+                "sprite": [
+                    "monstres/2-dj1-ocean/poisson/poisson_00.png",
+                    "monstres/2-dj1-ocean/poisson/poisson_01.png",
+                    "monstres/2-dj1-ocean/poisson/poisson_02.png",
+                    "monstres/2-dj1-ocean/poisson/poisson_03.png",
+                    "monstres/2-dj1-ocean/poisson/poisson_04.png",
+                    "monstres/2-dj1-ocean/poisson/poisson_05.png",
+                    "monstres/2-dj1-ocean/poisson/poisson_06.png",
+                    "monstres/2-dj1-ocean/poisson/poisson_07.png",
+                    "monstres/2-dj1-ocean/poisson/poisson_08.png",
+                    "monstres/2-dj1-ocean/poisson/poisson_09.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de mana",
+                        "quantity": 1,
+                        "rate": 0.30
+                    }
+                },
+                "is_boss": false
+            },
+            "10": {
+                "name": "Poisson fort",
+                "level": 11,
+                "hp": 200,
+                "atk": 54,
+                "def": 40,
+                "spd": 118,
+                "accuracy": 100,
+                "weakness": [
+                    "Foudre"
+                ],
+                "resistance": [
+                    "Eau"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Trempette très énervée",
+                        "effect": {
+                            "value": 1.2,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Dip_Angry.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "Le Poisson est un animal des rives. Il a l'air féroce !",
+                "exp": 34,
+                "gold": 18,
+                "sprite": [
+                    "monstres/2-dj1-ocean/poisson-fort/poisson-fort_0.png",
+                    "monstres/2-dj1-ocean/poisson-fort/poisson-fort_1.png",
+                    "monstres/2-dj1-ocean/poisson-fort/poisson-fort_2.png",
+                    "monstres/2-dj1-ocean/poisson-fort/poisson-fort_3.png",
+                    "monstres/2-dj1-ocean/poisson-fort/poisson-fort_4.png",
+                    "monstres/2-dj1-ocean/poisson-fort/poisson-fort_5.png",
+                    "monstres/2-dj1-ocean/poisson-fort/poisson-fort_6.png",
+                    "monstres/2-dj1-ocean/poisson-fort/poisson-fort_7.png",
+                    "monstres/2-dj1-ocean/poisson-fort/poisson-fort_8.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de mana",
+                        "quantity": 1,
+                        "rate": 0.30
+                    }
+                },
+                "is_boss": false
+            },
+            "11": {
+                "name": "Poulpe",
+                "level": 12,
+                "hp": 230,
+                "atk": 54,
+                "def": 40,
+                "spd": 120,
+                "accuracy": 100,
+                "weakness": [
+                    "Foudre"
+                ],
+                "resistance": [
+                    "Eau"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Coup de tentacules",
+                        "effect": {
+                            "value": 1.2,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Auto_Attack_Monsters.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "Le Poulpe est un animal des rives.",
+                "exp": 36,
+                "gold": 18,
+                "sprite": [
+                    "monstres/2-dj1-ocean/poulpe/poulpe_0.png",
+                    "monstres/2-dj1-ocean/poulpe/poulpe_1.png",
+                    "monstres/2-dj1-ocean/poulpe/poulpe_2.png",
+                    "monstres/2-dj1-ocean/poulpe/poulpe_3.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de mana",
+                        "quantity": 1,
+                        "rate": 0.30
+                    }
+                },
+                "is_boss": false
+            },
+            "12": {
+                "name": "Poulpe fort",
+                "level": 13,
+                "hp": 250,
+                "atk": 58,
+                "def": 45,
+                "spd": 121,
+                "accuracy": 100,
+                "weakness": [
+                    "Foudre"
+                ],
+                "resistance": [
+                    "Eau"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Coup de tentacules",
+                        "effect": {
+                            "value": 1.3,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Auto_Attack_Monsters.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "Le Poulpe est un animal des rives. Il a l'air féroce !",
+                "exp": 36,
+                "gold": 18,
+                "sprite": [
+                    "monstres/2-dj1-ocean/poulpe-fort/poulpe-fort_0.png",
+                    "monstres/2-dj1-ocean/poulpe-fort/poulpe-fort_1.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de mana",
+                        "quantity": 1,
+                        "rate": 0.30
+                    }
+                },
+                "is_boss": false
+            },
+            "13": {
+                "name": "Lapin énervé",
+                "level": 16,
+                "hp": 300,
+                "atk": 63,
+                "def": 50,
+                "spd": 100,
+                "accuracy": 100,
+                "weakness": [
+                    "Foudre"
+                ],
+                "resistance": [
+                    "Eau"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Coup de tentacules",
+                        "effect": {
+                            "value": 1.3,
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Bite_Animals.ogg"
+                            ]
+                        }
+                    }
+                },
+                "description": "Le Poisson est un animal des rives. Il a l'air féroce !",
+                "exp": 36,
+                "gold": 18,
+                "sprite": [
+                    "monstres/2-dj1-ocean/poulpe-fort/poulpe-fort_0.png",
+                    "monstres/2-dj1-ocean/poulpe-fort/poulpe-fort_1.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de mana",
+                        "quantity": 1,
+                        "rate": 0.30
+                    }
+                },
+                "is_boss": false
+            }
+        }
+    ],
+    "boss": [
+        {
+            "1": {
+                "name": "Loki",
+                "level": 15,
+                "hp": 1000,
+                "atk": 70,
+                "def": 55,
+                "spd": 135,
+                "accuracy": 100,
+                "weakness": [],
+                "resistance": [
+                    "Feu",
+                    "Eau",
+                    "Foudre",
+                    "Terre",
+                    "Vent",
+                    "Lumière",
+                    "Ténèbre",
+                    "Physique"
+                ],
+                "status": null,
+                "skills": {
+                    "skill1": {
+                        "name": "Ronces",
+                        "effect": {
+                            "value": 1,
+                            "description": "Empoisonne pendant trois tour les joueurs",
+                            "type": "Attaque",
+                            "element": "Terre",
+                            "se_attack": [
+                                "Brambles.ogg"
+                            ],
+                            "cooldown": 3,
+                            "aoe": true
+                        }
+                    },
+                    "skill2": {
+                        "name": "Attaque de poulpe",
+                        "effect": {
+                            "value": 1,
+                            "description": "Invoque des poulpes",
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Summon.ogg"
+                            ],
+                            "cooldown": 3,
+                            "aoe": true
+                        }
+                    },
+                    "ultime": {
+                        "name": "Spore d'endormissement",
+                        "effect": {
+                            "value": 1,
+                            "description": "Endors et empoisonne pendant 2 tours un ennemi",
+                            "type": "Attaque",
+                            "element": "Physique",
+                            "se_attack": [
+                                "Sleep.ogg"
+                            ],
+                            "cooldown": 2,
+                            "aoe": false
+                        }
+                    }
+                },
+                "description": "Loki est une bête féroce et terrifiante. Prenez garde !",
+                "exp": 100,
+                "gold": 100,
+                "sprite": [
+                    "monstres/2-dj1-ocean/loki/loki_00.png",
+                    "monstres/2-dj1-ocean/loki/loki_01.png",
+                    "monstres/2-dj1-ocean/loki/loki_02.png",
+                    "monstres/2-dj1-ocean/loki/loki_03.png",
+                    "monstres/2-dj1-ocean/loki/loki_04.png",
+                    "monstres/2-dj1-ocean/loki/loki_05.png",
+                    "monstres/2-dj1-ocean/loki/loki_06.png",
+                    "monstres/2-dj1-ocean/loki/loki_07.png",
+                    "monstres/2-dj1-ocean/loki/loki_08.png",
+                    "monstres/2-dj1-ocean/loki/loki_09.png",
+                    "monstres/2-dj1-ocean/loki/loki_10.png",
+                    "monstres/2-dj1-ocean/loki/loki_11.png",
+                    "monstres/2-dj1-ocean/loki/loki_12.png",
+                    "monstres/2-dj1-ocean/loki/loki_13.png",
+                    "monstres/2-dj1-ocean/loki/loki_14.png",
+                    "monstres/2-dj1-ocean/loki/loki_15.png",
+                    "monstres/2-dj1-ocean/loki/loki_16.png",
+                    "monstres/2-dj1-ocean/loki/loki_17.png",
+                    "monstres/2-dj1-ocean/loki/loki_18.png",
+                    "monstres/2-dj1-ocean/loki/loki_19.png",
+                    "monstres/2-dj1-ocean/loki/loki_20.png",
+                    "monstres/2-dj1-ocean/loki/loki_21.png",
+                    "monstres/2-dj1-ocean/loki/loki_22.png",
+                    "monstres/2-dj1-ocean/loki/loki_23.png",
+                    "monstres/2-dj1-ocean/loki/loki_24.png",
+                    "monstres/2-dj1-ocean/loki/loki_25.png",
+                    "monstres/2-dj1-ocean/loki/loki_26.png",
+                    "monstres/2-dj1-ocean/loki/loki_27.png",
+                    "monstres/2-dj1-ocean/loki/loki_28.png",
+                    "monstres/2-dj1-ocean/loki/loki_29.png",
+                    "monstres/2-dj1-ocean/loki/loki_30.png"
+                ],
+                "loot": {
+                    "item1": {
+                        "name": "Potion de vie",
+                        "quantity": 5,
+                        "rate": 1
+                    },
+                    "item2": {
+                        "name": "Potion de mana",
+                        "quantity": 5,
+                        "rate": 1
+                    }
+                },
+                "is_boss": true
+            }
+        }
+    ]
 }
