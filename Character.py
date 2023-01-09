@@ -1,5 +1,5 @@
-from Skill_MP import Skill_mp
-from Skill_Ulti import Skill_ulti
+from skill.Skill_MP import Skill_mp
+from skill.Skill_Ulti import Skill_ulti
 
 
 import json

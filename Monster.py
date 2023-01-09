@@ -1,4 +1,4 @@
-from Skill_monster import Skill_monster
+from skill.Skill_monster import Skill_monster
 from Loot_monster import Loot_monster
 
 import json
