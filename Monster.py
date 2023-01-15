@@ -1,5 +1,6 @@
-from skill.Skill_monster import Skill_monster
+from Skill_monster import Skill_monster
 from Loot_monster import Loot_monster
+import random
 
 import json
 
@@ -11,14 +12,17 @@ def json_monster(monster_id):
     get_id = get_monsters[0]
     return get_id[monster_id]
 
-class Monster():
+class Monster:
 
     def __init__(self, info_monster):
         self.name = info_monster["name"]
         self.level = info_monster["level"]
         self.hp = info_monster["hp"]
-        self.attack = info_monster["atk"]
-        self.defense = info_monster["def"]
+        self.attack = info_monster["attack"]
+        self.current_attack = info_monster["attack"]
+        self.current_speed = info_monster["spd"]
+
+        self.defense = info_monster["defense"]
         self.spd = info_monster["spd"]
         self.accuracy = info_monster["accuracy"]
         self.weakness = info_monster["weakness"]
@@ -39,14 +43,29 @@ class Monster():
     
     def get_hp(self):
         return self.hp
+
+    def set_hp(self, hp) :
+        self.hp = hp
     
     def get_attack(self):
         return self.attack
+
+    def get_current_attack(self):
+        return self.current_attack
+
+    def get_current_speed(self):
+        return self.current_speed
+
+    def get_current_speed(self):
+        return self.current_speed
+
+    def set_current_attack(self, attack) :
+        self.current_attack = attack
     
     def get_defense(self):
         return self.defense
 
-    def get_spd(self):
+    def get_speed(self):
         return self.spd
     
     def get_accuracy(self):
@@ -78,3 +97,9 @@ class Monster():
 
     def get_is_boss(self):
         return self.is_boss
+
+    def is_dead(self) :
+        if self.hp <= 0 :
+            return True
+        else :
+            return False

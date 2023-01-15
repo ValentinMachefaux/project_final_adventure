@@ -5,8 +5,8 @@
                 "name": "Slime Vert",
                 "level": 1,
                 "hp": 50,
-                "atk": 10,
-                "def": 10,
+                "attack": 10,
+                "defense": 10,
                 "spd": 100,
                 "accuracy": 100,
                 "weakness": [
@@ -24,12 +24,12 @@
                 "status": null,
                 "skills": {
                     "skill1": {
-                        "name": "Attaque",
+                        "name": "Lutte",
                         "effect": {
                             "value": 1.2,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Auto_Attack_Monsters.ogg"
                             ]
                         }
@@ -63,8 +63,8 @@
                 "name": "Slime Rose",
                 "level": 2,
                 "hp": 70,
-                "atk": 15,
-                "def": 13,
+                "attack": 15,
+                "defense": 13,
                 "spd": 102,
                 "accuracy": 100,
                 "weakness": [
@@ -82,12 +82,12 @@
                 "status": null,
                 "skills": {
                     "skill1": {
-                        "name": "Attaque",
+                        "name": "Lutte",
                         "effect": {
                             "value": 1.2,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Auto_Attack_Monsters.ogg"
                             ]
                         }
@@ -121,8 +121,8 @@
                 "name": "Lapin",
                 "level": 3,
                 "hp": 85,
-                "atk": 20,
-                "def": 16,
+                "attack": 20,
+                "defense": 16,
                 "spd": 105,
                 "accuracy": 100,
                 "weakness": [
@@ -140,7 +140,7 @@
                             "value": 1.2,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Bite_Animals.ogg"
                             ]
                         }
@@ -178,8 +178,8 @@
                 "name": "Cochon",
                 "level": 3,
                 "hp": 100,
-                "atk": 30,
-                "def": 20,
+                "attack": 30,
+                "defense": 20,
                 "spd": 107,
                 "accuracy": 100,
                 "weakness": [
@@ -197,7 +197,7 @@
                             "value": 1.2,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Bite_Animals.ogg"
                             ]
                         }
@@ -225,8 +225,8 @@
                 "name": "Vache",
                 "level": 3,
                 "hp": 120,
-                "atk": 35,
-                "def": 25,
+                "attack": 35,
+                "defense": 25,
                 "spd": 108,
                 "accuracy": 100,
                 "weakness": [
@@ -244,7 +244,7 @@
                             "value": 1.2,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Bite_Animals.ogg"
                             ]
                         }
@@ -272,8 +272,8 @@
                 "name": "Taureau",
                 "level": 6,
                 "hp": 130,
-                "atk": 37,
-                "def": 27,
+                "attack": 37,
+                "defense": 27,
                 "spd": 109,
                 "accuracy": 100,
                 "weakness": [
@@ -291,7 +291,7 @@
                             "value": 1.3,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Bite_Animals.ogg"
                             ]
                         }
@@ -319,8 +319,8 @@
                 "name": "Canard",
                 "level": 8,
                 "hp": 160,
-                "atk": 45,
-                "def": 32,
+                "attack": 45,
+                "defense": 32,
                 "spd": 100,
                 "accuracy": 111,
                 "weakness": [
@@ -337,7 +337,7 @@
                             "value": 1.3,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Bite_Animals.ogg"
                             ]
                         }
@@ -367,8 +367,8 @@
                 "name": "Poisson faible",
                 "level": 9,
                 "hp": 170,
-                "atk": 48,
-                "def": 34,
+                "attack": 48,
+                "defense": 34,
                 "spd": 114,
                 "accuracy": 100,
                 "weakness": [
@@ -385,7 +385,7 @@
                             "value": 1.2,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Trempette.ogg"
                             ]
                         }
@@ -416,8 +416,8 @@
                 "name": "Poisson",
                 "level": 10,
                 "hp": 180,
-                "atk": 51,
-                "def": 37,
+                "attack": 51,
+                "defense": 37,
                 "spd": 116,
                 "accuracy": 100,
                 "weakness": [
@@ -434,7 +434,7 @@
                             "value": 1.2,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Trempette.ogg"
                             ]
                         }
@@ -468,8 +468,8 @@
                 "name": "Poisson fort",
                 "level": 11,
                 "hp": 200,
-                "atk": 54,
-                "def": 40,
+                "attack": 54,
+                "defense": 40,
                 "spd": 118,
                 "accuracy": 100,
                 "weakness": [
@@ -486,7 +486,7 @@
                             "value": 1.2,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Dip_Angry.ogg"
                             ]
                         }
@@ -519,8 +519,8 @@
                 "name": "Poulpe",
                 "level": 12,
                 "hp": 230,
-                "atk": 54,
-                "def": 40,
+                "attack": 54,
+                "defense": 40,
                 "spd": 120,
                 "accuracy": 100,
                 "weakness": [
@@ -537,7 +537,7 @@
                             "value": 1.2,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Auto_Attack_Monsters.ogg"
                             ]
                         }
@@ -565,8 +565,8 @@
                 "name": "Poulpe fort",
                 "level": 13,
                 "hp": 250,
-                "atk": 58,
-                "def": 45,
+                "attack": 58,
+                "defense": 45,
                 "spd": 121,
                 "accuracy": 100,
                 "weakness": [
@@ -583,7 +583,7 @@
                             "value": 1.3,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Auto_Attack_Monsters.ogg"
                             ]
                         }
@@ -609,8 +609,8 @@
                 "name": "Lapin énervé",
                 "level": 16,
                 "hp": 300,
-                "atk": 63,
-                "def": 50,
+                "attack": 63,
+                "defense": 50,
                 "spd": 100,
                 "accuracy": 100,
                 "weakness": [
@@ -627,7 +627,7 @@
                             "value": 1.3,
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Bite_Animals.ogg"
                             ]
                         }
@@ -657,8 +657,8 @@
                 "name": "Loki",
                 "level": 15,
                 "hp": 1000,
-                "atk": 70,
-                "def": 55,
+                "attack": 70,
+                "defense": 55,
                 "spd": 135,
                 "accuracy": 100,
                 "weakness": [],
@@ -681,7 +681,7 @@
                             "description": "Empoisonne pendant trois tour les joueurs",
                             "type": "Attaque",
                             "element": "Terre",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Brambles.ogg"
                             ],
                             "cooldown": 3,
@@ -695,7 +695,7 @@
                             "description": "Invoque des poulpes",
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Summon.ogg"
                             ],
                             "cooldown": 3,
@@ -709,7 +709,7 @@
                             "description": "Endors et empoisonne pendant 2 tours un ennemi",
                             "type": "Attaque",
                             "element": "Physique",
-                            "se_attack": [
+                            "SE_Attack": [
                                 "Sleep.ogg"
                             ],
                             "cooldown": 2,

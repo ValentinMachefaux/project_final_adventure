@@ -7,9 +7,10 @@ class Skill :
         self.skill_type = info_skill['effect']['type']
         self.is_aoe = info_skill['effect']['aoe']
         self.element = info_skill['effect']['element']
-
-    def get_info(self) :
-        return self.info
+        self.is_buff = info_skill['effect']['is_buff']
+        self.is_debuff = info_skill['effect']['is_debuff']
+        if 'value_boss' in info_skill['effect'] :
+            self.skill_value_boss = info_skill['effect']['value_boss']
 
     def get_name(self):
         return self.name
@@ -23,6 +24,9 @@ class Skill :
     def get_value(self):
         return self.value
 
+    def get_value_boss(self):
+        return self.value_boss
+
     def get_skill_type(self):
         return self.skill_type
 
@@ -31,3 +35,12 @@ class Skill :
 
     def get_element(self):
         return self.element
+
+    def get_is_buff(self) :
+        return self.is_buff
+
+    def get_is_debuff(self) :
+        return self.is_debuff
+        
+    def get_sound_effect(self) :
+        return self.sound_effect

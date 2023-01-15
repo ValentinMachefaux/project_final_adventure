@@ -1,0 +1,74 @@
+{
+    "item": {
+        "potion": {
+            "hp": {
+                "name": "Potion de vie",
+                "image": "Potion_de_vie.png",
+                "description" : "Permet de soigner 10% des PV.",
+                "price" : "10",
+                "effect": {
+                    "value": 0.1,
+                    "type": "hp"
+                }
+            },
+            "mp": {
+                "name": "Potion de mana",
+                "image": "Potion_de_mana.png",
+                "description" : "Permet de régénérer 30% de la Mana.",
+                "price" : "15",
+                "effect": {
+                    "value": 0.30,
+                    "type": "mp"
+                }
+            }
+        },
+        "potion_buff": {
+            "str": {
+                "name": "Potion de force",
+                "image": "Potion_de_force.png",
+                "description" : "Permet d'augmenter la force de 10% pendant 3 tours.",
+                "price" : "25",
+                "effect": {
+                    "value": 0.1,
+                    "type": "str",
+                    "tour": 3
+                }
+            },
+            "res": {
+                "name": "Potion de résistance",
+                "image": "Potion_de_resistance.png",
+                "description" : "Permet d'augmenter les résistances de + 5 pendant 3 tours.",
+                "price" : "20",
+                "effect": {
+                    "value": 5,
+                    "type": "resistance",
+                    "tour": 3
+                }
+            },
+            "spd": {
+                "name": "Potion de vitesse",
+                "image": "Potion_de_vitesse.png",
+                "price" : "25",
+                "description" : "Permet d'augmenter la vitesse de 25% pendant 3 tours.",
+                "effect": {
+                    "value": 0.25,
+                    "type": "spd",
+                    "tour": 3
+                }
+            }
+        },
+        "divers" : {
+            "ankh" : {
+                "name": "Ankh",
+                "image": "Ankh.png",
+                "description" : "Permet de ressuciter un personnage à 50% de ses PV max.",
+                "price" : "1500",
+                "effect": {
+                    "value": 0.5,
+                    "type": "ressurection",
+                    "tour": 0
+                }
+            }
+        }
+    }
+}

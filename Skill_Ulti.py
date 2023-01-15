@@ -1,4 +1,4 @@
-from skill.Skill import Skill
+from Skill import Skill
 
 class Skill_ulti(Skill) :
     def __init__(self, info_skill):
@@ -7,4 +7,3 @@ class Skill_ulti(Skill) :
 
     def get_rp(self):
         return self.rp
-

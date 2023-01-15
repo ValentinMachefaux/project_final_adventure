@@ -1,4 +1,4 @@
-from skill.Skill_monster import Skill_monster
+from Skill_monster import Skill_monster
 
 class Skill_boss(Skill_monster):
     def __init__(self, info_skill):

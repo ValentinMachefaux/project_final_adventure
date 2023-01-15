@@ -4,6 +4,7 @@ class Skill_monster:
         self.value = info_skill["effect"]["value"]
         self.skill_type = info_skill["effect"]["type"]
         self.element = info_skill["effect"]["element"]
+        self.sound_effect = info_skill["effect"]["SE_Attack"]
 
     def get_name(self):
         return self.name
@@ -16,3 +17,6 @@ class Skill_monster:
         
     def get_element(self):
         return self.element
+
+    def get_sound_effect(self):
+        return self.sound_effect

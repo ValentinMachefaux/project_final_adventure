@@ -67,12 +67,12 @@
                 "skills": {
                     "skill_1": {
                         "name": "Coup victoire",
-                        "detail": "Effectue une Attaque en cône les ennemis en face.",
+                        "detail": "Effectue une attaque en cône les ennemis en face.",
                         "image": "image.png",
                         "mp": 10,
                         "cd": 0,
                         "effect": {
-                            "value": 15,
+                            "value": 1.15,
                             "type": "Attaque",
                             "is_buff": false,
                             "is_debuff": false,
@@ -90,7 +90,7 @@
                         "mp": 10,
                         "cd": 0,
                         "effect": {
-                            "value": 1.15,
+                            "value": 0.15,
                             "type": "Soin",
                             "is_buff": false,
                             "is_debuff": false,
@@ -103,13 +103,13 @@
                     },
                     "skill_3": {
                         "name": "Intimidation",
-                        "detail": "Provoque tous les ennemis qui perdent l'envie de se battre, réduit de 20% l’Attaque ennemi et 5% sur les boss.",
+                        "detail": "Provoque tous les ennemis qui perdent l'envie de se battre, réduit de 20% l'attaque ennemi et 5% sur les boss.",
                         "image": "image.png",
                         "mp": 5,
-                        "cd": 0,
+                        "cd": 3,
                         "effect": {
-                            "value": 1.20,
-                            "value_boss": 5,
+                            "value": 0.8,
+                            "value_boss": 0.95,
                             "type": "Offensif",
                             "is_buff": false,
                             "is_debuff": true,
@@ -122,15 +122,14 @@
                     },
                     "ultimate": {
                         "name": "Spes Mundi",
-                        "detail": "Obtient l’aval d’un dieu, le héros s’équipe de l’arme sacrée et assène un coup fulgurant sur l’ennemi, 2,5 fois les dégâts de l’arme.",
+                        "detail": "Obtient l'aval d'un dieu, le héros s'équipe de l'arme sacrée et assène un coup fulgurant sur l'ennemi, 2,5 fois les dégâts de l'arme.",
                         "image": "image.png",
                         "rp": 100,
-                        "cd": null,
                         "effect": {
                             "value": 2.5,
                             "type": "Attaque",
                             "is_buff": false,
-                            "is_debuff": true,
+                            "is_debuff": false,
                             "aoe":false,
                             "element": "Lumière",
                             "se": [
@@ -161,8 +160,8 @@
                 "mp_max": 3500,
                 "rp": 0,
                 "rp_max": 100,
-                "atk": 15,
-                "def": 30,
+                "attack": 15,
+                "defense": 30,
                 "accuracy": 100,
                 "spd": 101,
                 "exp": 0,
@@ -183,13 +182,13 @@
                 "skills": {
                     "skill_1": {
                         "name": "Coup perçant",
-                        "detail": "Effectue une Attaque perçante qui perfore l'armure de l'ennemi, ignore 20% de la défense de l'ennemi et 5% de la défense des boss.",
+                        "detail": "Effectue une attaque perçante qui perfore l'armure de l'ennemi, ignore 20% de la défense de l'ennemi et 5% de la défense des boss.",
                         "image": "image.png",
                         "mp": 10,
                         "cd": 0,
                         "effect": {
-                            "value": 1.2,
-                            "value_boss": 1.05,
+                            "value": 1,
+                            "value_boss": 1,
                             "type": "Attaque",
                             "is_buff": false,
                             "is_debuff": true,
@@ -202,7 +201,7 @@
                     },
                     "skill_2": {
                         "name": "Tourbillon",
-                        "detail": "Fait tourner sa lance au-dessus de sa tete.",
+                        "detail": "Fait tourner sa lance au-dessus de sa tête.",
                         "image": "image.png",
                         "mp": 10,
                         "cd": 0,
@@ -220,13 +219,13 @@
                     },
                     "skill_3": {
                         "name": "Riposte",
-                        "detail": "Se met en garde pour contrer une Attaque.",
+                        "detail": "Se met en garde pour contrer une attaque.",
                         "image": "image.png",
                         "mp": 40,
                         "cd": 2,
                         "effect": {
-                            "value": 0,
-                            "value_boss": 1.2,
+                            "value": 1,
+                            "value_boss": 0.8,
                             "type": "Défensif",
                             "is_buff": false,
                             "is_debuff": false,
@@ -239,7 +238,7 @@
                     },
                     "ultimate": {
                         "name": "Technique ancestrale",
-                        "detail": "Prends appui sur son arme et saute dans les air pour effectuer un enchainement de coup tranchant.",
+                        "detail": "Prend appui sur son arme et saute dans les airs pour effectuer un enchaînement de coups tranchants.",
                         "image": "image.png",
                         "rp": 100,
                         "effect": {
@@ -277,8 +276,8 @@
                 "mp_max": 3500,
                 "rp": 0,
                 "rp_max": 100,
-                "atk": 25,
-                "def": 5,
+                "attack": 25,
+                "defense": 5,
                 "accuracy": 100,
                 "spd": 110,
                 "exp": 0,
@@ -299,7 +298,7 @@
                 "skills": {
                     "skill_1": {
                         "name": "Lance-pique",
-                        "detail": "Bébé nergi lance une raffale de pics, peut toucher 1 à 4 fois.",
+                        "detail": "Bébé Nergi lance une rafale de pics, peut toucher 1 à 4 fois.",
                         "image": "image.png",
                         "mp": 15,
                         "cd": 0,
@@ -316,8 +315,8 @@
                         }
                     },
                     "skill_2": {
-                        "name": "Pique de nergi",
-                        "detail": "Bébé nergi s'enveloppe de pics et fonce sur l'ennemi.",
+                        "name": "Pique de Nergi",
+                        "detail": "Bébé Nergi s'enveloppe de pics et fonce sur l'ennemi.",
                         "image": "image.png",
                         "mp": 35,
                         "cd": 0,
@@ -353,11 +352,11 @@
                     },
                     "ultimate": {
                         "name": "Transformation démoniaque",
-                        "detail": "Invoque ses pouvoirs démoniaque puis donne un coup dévastateur.",
+                        "detail": "Invoque ses pouvoirs démoniaques puis donne un coup dévastateur.",
                         "image": "image.png",
                         "rp": 70,
                         "effect": {
-                            "value": 1.2,
+                            "value": 1.35,
                             "type": "Attaque",
                             "is_buff": false,
                             "is_debuff": false,
@@ -391,8 +390,8 @@
                 "mp_max": 3500,
                 "rp": 0,
                 "rp_max": 100,
-                "atk": 5,
-                "def": 15,
+                "attack": 5,
+                "defense": 15,
                 "accuracy": 100,
                 "spd": 102,
                 "exp": 0,
@@ -432,7 +431,7 @@
                     },
                     "skill_2": {
                         "name": "Écaille protectrice",
-                        "detail": "Augmente la defense de 10% d'un allié ou de soi-meme.",
+                        "detail": "Augmente la defenseense de 10% d'un allié ou de soi-meme.",
                         "image": "image.png",
                         "mp": 20,
                         "cd": 1,
@@ -451,7 +450,7 @@
                     },
                     "skill_3": {
                         "name": "Souffle du dragon",
-                        "detail": "Blesse légerement les cibles et réduit la defense de 10% des ennemis et de 5% des boss. ",
+                        "detail": "Blesse légerement les cibles et réduit la défense de 10% des ennemis et de 5% des boss.",
                         "image": "image.png",
                         "mp": 30,
                         "cd": 2,
@@ -469,7 +468,7 @@
                     },
                     "ultimate": {
                         "name": "Bénédiction des cieux",
-                        "detail": "Le dieu vous accorde ses pouvoir et fait revivre un allié mort et tous ses points de vie.",
+                        "detail": "Le dieu vous accorde ses pouvoirs et fait revivre un allié mort et tous ses points de vie.",
                         "image": "image.png",
                         "rp": 100,
                         "effect": {
@@ -507,8 +506,8 @@
                 "mp_max": 3500,
                 "rp": 0,
                 "rp_max": 100,
-                "atk": 15,
-                "def": 25,
+                "attack": 15,
+                "defense": 25,
                 "accuracy": 100,
                 "spd": 105,
                 "exp": 0,
@@ -624,8 +623,8 @@
                 "mp_max": 3500,
                 "rp": 0,
                 "rp_max": 100,
-                "atk": 10,
-                "def": 25,
+                "attack": 10,
+                "defense": 25,
                 "accuracy": 100,
                 "spd": 104,
                 "exp": 0,

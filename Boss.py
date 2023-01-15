@@ -1,5 +1,5 @@
 from Monster import Monster
-from skill.Skill_boss import Skill_boss
+from Skill_boss import Skill_boss
 from Loot_monster import Loot_monster
 
 import json
