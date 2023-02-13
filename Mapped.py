@@ -48,7 +48,7 @@ class Mapped:
                 if self.x == x and self.y == y:
                     sys.stdout.write(" ✧ ")  # Place du joueur
                 else:
-                    if ((x, y), (x, y+1)) in self.path or ((x, y-1), (x, y)) in self.path or ((x-1, y), (x, y)) in self.path:
+                    if ((x,y),(x,y+1)) in self.path or ((x,y-1),(x,y)) in self.path or ((x-1,y),(x,y)) in self.path or ((x,y),(x+1,y)) in self.path:
                         sys.stdout.write(" ▢ ")  # Place vide
                     else:
                         sys.stdout.write(" ▨ ")  # Chemin
@@ -72,9 +72,14 @@ class Mapped:
     def get_x(self):
         return self.x
 
+    def set_x(self,x):
+        self.x = x
+
     def get_y(self):
         return self.y
 
+    def set_y(self,y):
+        self.y = y
 
 # Map du village detruit
 DREENSHGARD = [
@@ -95,36 +100,61 @@ DREENSHGARD = [
 ]
 
 FOREST = [
-    ((2, 4), (3, 4)),
-    ((1, 4), (2, 4)),
-    ((2, 3), (2, 4)),
-    ((1, 3), (2, 3)),
-    ((1, 2), (1, 3)),
-    ((0, 2), (1, 2)),
+    ((0, 3), (0, 4)),
     ((0, 2), (0, 3)),
-    ((0, 3), (1, 3)),
-    ((1, 3), (1, 4)),
-    ((0, 4), (1, 4)),
-    ((1, 1), (1, 2)),
+    ((0, 2), (1, 2)),
     ((0, 1), (1, 1)),
     ((0, 0), (0, 1)),
     ((0, 0), (1, 0)),
+    ((1, 1), (1, 2)),
+    ((1, 4), (2, 4)),
+    ((1, 3), (2, 3)),
+    ((1, 2), (1, 3)),
+    ((1, 1), (2, 1)),
     ((1, 0), (2, 0)),
+    ((2, 3), (2, 4)),
+    ((2, 4), (3, 4)),
+    ((2, 0), (3, 0)),
+    ((3, 0), (3, 1)),
+    ((3, 1), (3, 2)),
+]
+
+# Chemin de la foret 2
+FOREST_2 = [
     ((2, 0), (3, 0)),
     ((3, 0), (3, 1)),
     ((2, 1), (3, 1)),
     ((2, 1), (2, 2)),
-    ((2, 2), (3, 2)),
-]
-# Initialisation de la map
-# 2, 1 là où on doit commencer le jeu
-dreenshgard = Mapped(5, 4, 1, 1, DREENSHGARD)
-forest = Mapped(5, 4, 3, 4, FOREST)
+    ((2, 2), (2, 3)),
+    ((2, 3), (2, 4)),
+    ((1, 2), (2, 2)),
+    ((0, 2), (1, 2)),
+    ((0, 2), (0, 3)),
+    ((0, 1), (0, 2)),
+    ((0, 1), (1, 1)),
+    ((0, 0), (0, 1)),
 
-coordinate = str(dreenshgard.get_x()) + "," + str(dreenshgard.get_y())
-m = Mappy(json_map(str(coordinate)))
+]
+
+# Chemin du donjon
+DUNGEON = [
+    ((1, 0), (1, 1)),
+    ((0, 1), (1, 1)),
+    ((1, 1), (1, 2)),
+    ((1, 1), (2, 1)),
+    ((1, 2), (1, 3)),
+]
+
+dreenshgard = Mapped(5, 4, 1, 3, DREENSHGARD)
+forest = Mapped(5, 4, 3, 4, FOREST)
+forest_2 = Mapped(5, 4, 2, 0, FOREST_2)
+dungeon = Mapped(4, 3, 1, 3, DUNGEON)
+
+# coordinate = str(dreenshgard.get_x()) + "," + str(dreenshgard.get_y())
+# m = Mappy(json_map("Dreenshgard", str(coordinate)))
 
 # while True:
-#     dreenshgard.draw_map()
-#     dir = input("Quelle direction souhaitez vous prendre ?\n[1] - Nord\n[2] - Sud\n[3] - Est\n[4] - Ouest\n")
-#     dreenshgard.move(dir)
+#     dungeon.draw_map()
+#     dir = input(
+#         "Quelle direction souhaitez vous prendre ?\n[1] - Nord\n[2] - Sud\n[3] - Est\n[4] - Ouest\n")
+#     dungeon.move(dir)

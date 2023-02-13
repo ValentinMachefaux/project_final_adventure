@@ -41,7 +41,7 @@ class Map:
                 if self.x == x and self.y == y:
                     sys.stdout.write(" ✧ ") # Place du joueur
                 else:
-                    if ((x,y),(x,y+1)) in self.path or ((x,y-1),(x,y)) in self.path or ((x-1,y),(x,y)) in self.path or    ((x,y),(x+1,y)) in self.path:
+                    if ((x,y),(x,y+1)) in self.path or ((x,y-1),(x,y)) in self.path or ((x-1,y),(x,y)) in self.path or ((x,y),(x+1,y)) in self.path:
                         sys.stdout.write(" ▢ ") # Place vide
                     else:
                         sys.stdout.write(" ▨ ") # Chemin
@@ -83,26 +83,23 @@ DREENSHGARD = [
 
 # Chemin de la foret
 FOREST = [
-    ((2,4),(3,4)),
-    ((1,4),(2,4)),
-    ((2,3),(2,4)),
-    ((1,3),(2,3)),
-    ((1,2),(1,3)),
-    ((0,2),(1,2)),
+    ((0,3),(0,4)),
     ((0,2),(0,3)),
-    ((0,3),(1,3)),
-    ((1,3),(1,4)),
-    ((0,4),(1,4)),
-    ((1,1),(1,2)),
+    ((0,2),(1,2)),
     ((0,1),(1,1)),
     ((0,0),(0,1)),
     ((0,0),(1,0)),
+    ((1,1),(1,2)),
+    ((1,4),(2,4)),
+    ((1,3),(2,3)),
+    ((1,2),(1,3)),
+    ((1,1),(2,1)),
     ((1,0),(2,0)),
+    ((2,3),(2,4)),
+    ((2,4),(3,4)),
     ((2,0),(3,0)),
     ((3,0),(3,1)),
-    ((2,1),(3,1)),
-    ((2,1),(2,2)),
-    ((2,2),(3,2)),
+    ((3,1),(3,2)),
 ]
 
 # Chemin de la foret 2
@@ -136,8 +133,8 @@ forest_2 = Map(5,4,2,0,FOREST_2)
 dungeon = Map(3,3,1,2,DUNGEON)
 
 while True:
-    dungeon.draw_map()
+    forest.draw_map()
     dir = input("Quel direction souhaitez vous prendre ? [n/s/e/o]\n")
-    dungeon.move(dir)
+    forest.move(dir)
 
 

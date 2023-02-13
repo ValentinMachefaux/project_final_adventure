@@ -16,17 +16,17 @@ from Character import *
 
 # p à retirer à la fin du test
 
-p = Character(json_class("heros"))
+# p = Character(json_class("heros"))
 
 i = "???"
 
-v = Character(json_class("lancer"))
+# v = Character(json_class("lancer"))
 
 l = "Loic"
 
-t = Character(json_class("warrior"))
+# t = Character(json_class("warrior"))
 
-k = Character(json_class("priest"))
+# k = Character(json_class("priest"))
 
 vill = "Villageois"
 
@@ -113,9 +113,9 @@ class Story:
 
         else:
 
-            for p in person:
+            for pe in person:
 
-                self.print_slow(f"\n\t{a}: {p} {text}\n")
+                self.print_slow(f"\n\t{a}: {pe} {text}\n")
 
 
 
@@ -197,7 +197,14 @@ class Story:
 
         # Mais pourquoi ici mais pas ailleurs
 
-        m = Mappy(json_map(str(coordinate)))
+        if token_map == "dreenshgard":
+            m = Mappy(json_map("Dreenshgard",str(coordinate_dreen)))
+        if token_map == "forest":
+            m = Mappy(json_map("Forest",str(coordinate_forest)))
+        if token_map == "forest_2":
+            m = Mappy(json_map("Forest_2",str(coordinate_forest_2)))
+        if token_map == "dungeon":
+            m = Mappy(json_map("Dungeon_1",str(coordinate_dungeon)))
 
     #   if ch == se mouvoir sur la map
 
@@ -210,8 +217,14 @@ class Story:
             if dir == 5:
 
                 s.walk()
-
-            return dreenshgard.move(dir)
+            if token_map == "dreenshgard":
+                return dreenshgard.move(dir)
+            if token_map == "forest":
+                return forest.move(dir)
+            if token_map == "forest_2":
+                return forest_2.move(dir)
+            if token_map == "dungeon":
+                return dungeon.move(dir)
 
 
 
@@ -220,29 +233,73 @@ class Story:
         elif ch == 2:
 
             # s.open_inventory
-            print(p.__dict__)
-            # return s.open_inventory
             pass
 
     #   elif ch == ouvrir la map
 
         elif ch == 3:
 
-            print(coordinate)
+            # print(coordinate_)
 
             print(m.get_description())
-
-            return dreenshgard.draw_map()
+            if token_map == "dreenshgard":
+                return dreenshgard.draw_map()
+            if token_map == "forest":
+                return forest.draw_map()
+            if token_map == "forest_2":
+                return forest_2.draw_map()
+            if token_map == "dungeon":
+                return dungeon.draw_map()
 
         elif ch == 4:
 
             data = {
-            "coordinate_x":str(dreenshgard.get_x()),
-            "coordinate_y":str(dreenshgard.get_y()),
-            # "heros":p
+            "coordinate_x_dreen":str(dreenshgard.get_x()),
+            "coordinate_y_dreen":str(dreenshgard.get_y()),
+            "coordinate_x_forest":str(forest.get_x()),
+            "coordinate_y_forest":str(forest.get_y()),
+            "coordinate_x_forest_2":str(forest_2.get_x()),
+            "coordinate_y_forest_2":str(forest_2.get_y()),
+            "coordinate_x_dungeon":str(dungeon.get_x()),
+            "coordinate_y_dungeon":str(dungeon.get_y()),
+            "heros":{
+               "name" : p.name,
+               "hp" : p.hp,
+               "hp_max" : p.hp_max,
+               "mp" : p.mp,
+               "mp_max" : p.mp_max,
+               "rp" : p.rp,
+               "rp_max" : p.rp_max,
+               "attack" : p.attack,
+               "defense" : p.defense,
+               "exp" : p.exp
+                },
+            "lancer":{
+               "name" : v.name,
+               "hp" : v.hp,
+               "hp_max" : v.hp_max,
+               "mp" : v.mp,
+               "mp_max" : v.mp_max,
+               "rp" : v.rp,
+               "rp_max" : v.rp_max,
+               "attack" : v.attack,
+               "defense" : v.defense,
+               "exp" : v.exp
+                },
+            "warrior":{
+                "name" : t.name,
+               "hp" : t.hp,
+               "hp_max" : t.hp_max,
+               "mp" : t.mp,
+               "mp_max" : t.mp_max,
+               "rp" : t.rp,
+               "rp_max" : t.rp_max,
+               "attack" : t.attack,
+               "defense" : t.defense,
+               "exp" : t.exp
+                },
             }
 
-            print(data.items())
             Save.save(data)
             return s.walk()
             # pass
@@ -337,8 +394,7 @@ while True:
 
     s = Story()
 
-
-
+    token_map = "dreenshgard"
     if token_story == 0:
 
         # LE RÊVE
@@ -659,7 +715,7 @@ while True:
 
 
 
-        # p = s.name()
+        # s.name()
 
         # s.print_dialog(f"{i}"," Ravie de te rencontrer, "f"{p.get_name()}")
 
@@ -717,30 +773,57 @@ while True:
 
 #   MOMENT JOUABLE
 
-    coordinate = str(dreenshgard.get_x()) + "," + str(dreenshgard.get_y())
+    coordinate_dreen = str(dreenshgard.get_x()) + "," + str(dreenshgard.get_y())
+    coordinate_forest = str(forest.get_x()) + "," + str(forest.get_y())
+    coordinate_forest_2 = str(forest_2.get_x()) + "," + str(forest_2.get_y())
+    coordinate_dungeon = str(dungeon.get_x()) + "," + str(dungeon.get_y())
 
-    m = Mappy(json_map(str(coordinate)))
+    if coordinate_dreen == "1,4":
+        token_map = "forest"
+    if coordinate_forest == "3,2":
+        token_map = "forest_2"
+    if coordinate_forest_2 == "0,0":
+        token_map = "dungeon"
+
+
+
+    if token_map == "dreenshgard":
+        m = Mappy(json_map("Dreenshgard",str(coordinate_dreen)))
+    if token_map == "forest":
+        m = Mappy(json_map("Forest",str(coordinate_forest)))
+    if token_map == "forest_2":
+        m = Mappy(json_map("Forest_2",str(coordinate_forest_2)))
+    if token_map == "dungeon":
+        m = Mappy(json_map("Dungeon_11",str(coordinate_dungeon)))
 
     s.walk()
     if token_event == False:
 
         print(m.get_description_before())
 
+
     if token_event == True:
 
         print(m.get_description())
 
-    print(coordinate)
+    if token_map == "dreenshgard":
+        print(coordinate_dreen)
+    if token_map == "forest":
+        print(coordinate_forest)
+    if token_map == "forest_2":
+        print(coordinate_forest_2)
+    if token_map == "dungeon":
+        print(coordinate_dreen)
 
     if m == "3,2":
 
         s.quest()
 
-    if coordinate == "2,4":
+    if coordinate_dreen == "2,4":
 
         s.quest()
 
-    if coordinate == "1,0" and token_story == 1:
+    if coordinate_dreen == "1,0" and token_story == 1:
 
         #   Event à l'église
 

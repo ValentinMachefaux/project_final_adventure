@@ -285,3 +285,7 @@ class Character():
 		else :
 			return False
 
+p = Character(json_class("heros"))
+v = Character(json_class("lancer"))
+t = Character(json_class("warrior"))
+k = Character(json_class("priest"))

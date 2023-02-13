@@ -10,10 +10,22 @@ class Inventory:
         self.potion_spd = Potion_de_buff(json_objet('potion_buff', 'spd'), 1)
         self.potion_res = Potion_de_buff(json_objet('potion_buff', 'res'), 1)
         self.ankh = Potion_de_buff(json_objet('divers', 'ankh'), 1)
+        self.gold = 0
 
+    def get_gold(self) :
+        return self.gold
+
+    def set_gold(self, gold) :
+        self.gold += gold
 
     def get_inventory(self):
         return self.inventory
+    
+    def set_item(self, item, quantity):
+        for key, value in list(self.inventory.items()):
+            if key.get_name() == item.get_name() :
+                value = quantity
+                self.inventory.update({key : value})
 
     def update_item(self, item, quantity):
         for key, value in list(self.inventory.items()):
@@ -56,18 +68,3 @@ class Inventory:
             if choice == index : 
                 print(f"\n\t[DESCRIPTION DE {key.get_name().upper()}]\n")
                 print(f"{key.get_description()}")
-
-# i = Inventory()
-# i.init_inventory()
-# i.print_inventory()
-
-# potion_hp = Potion_de_vie(json_objet('potion', 'hp'), 0)
-# potion_hp2 = Potion_de_vie(json_objet('potion', 'hp'), 0)
-
-# i.update_item(potion_hp, 1)
-# i.update_item(potion_hp2, 1)
-
-# print("\nAprès ajout de 2 x popo hp\n")
-
-# i.print_inventory()
-# print(i.get_len_inventory())
